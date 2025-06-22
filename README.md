@@ -1,2 +1,2 @@
-# helpTemplate
-Help file base template
+# helpAuthorsGuide
+Help file for authors of new help files

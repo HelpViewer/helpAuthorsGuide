@@ -1,1 +1,26 @@
-Overview chapter|Overview||README.md
+Dokumentace pro autory|Dokumentace pro autory||README.md
+ ⚙️ Funkce|Seznam funkcí||features.md
+💡 Obecná doporučení|Obecná doporučení||general.md
+Nová nápověda|Vytvoření nové nápovědy||newHelp.md
+ 🗂️ Struktura projektu|Struktura projektu nápovědy||struct.md
+Konfigurace nápovědy|Konfigurace nápovědy||helpCfg.md
+ 📖 Ikony stromu témat|Ikony stromu témat||tocIcon.md
+ 🔎 Fulltextové vyhledávání|Fulltextové vyhledávání (fts-keywords.lst)||fulltextIndex.md
+ Vlastní UI prohlížeče
+Nová kapitola|Nová kapitola||newTopic.md
+ 📝 Texty kapitol|Texty kapitol||texts.md
+ 📑 Určení nadpisu|Určení nadpisu||heading.md
+ 🔗 Odkazy|Odkazy v textech||links.md
+ 🖼️ Obrázky|Obrázky v textech||images.md
+ 🧾 Kódový výpis|Kódový výpis v textech||code.md
+ 📊 Diagram|Diagram||diagram.md
+ 🧩 JavaScript|Vložený JavaScript blok||innerJS.md
+Indexace|Indexace kapitoly a popis metadat||indexing.md
+ 📖 Strom témat|Strom témat (tree.lst)||mdata/tree.lst.md
+ 📑 Seznam souborů|Seznam souborů (files.lst)||mdata/files.lst.md
+ 📇 Seznam klíčových slov|Seznam klíčových slov (keywords.lst)||mdata/keywords.lst.md
+ 📇 Vazba klíčové slovo - soubor|Vazba mezi klíčovými slovy a soubory (keywords-files.lst)||mdata/keywords-files.lst.md
+Vydání verze nápovědy
+🌐 Nový jazyk|Nový jazyk||newLang.md
+Integrace s aplikacemi
+||https://avatars.githubusercontent.com/u/214681531?s=200&v=4|

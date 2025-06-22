@@ -1,1 +1,22 @@
-README.md|Overview
+README.md|Dokumentace pro autory
+features.md|Seznam funkcí
+newHelp.md|Vytvoření nové nápovědy
+struct.md|Struktura projektu nápovědy
+general.md|Obecná doporučení
+newTopic.md|Nová kapitola
+links.md|Odkazy v textech
+images.md|Obrázky v textech
+code.md|Výpis kódu
+diagram.md|Diagram
+texts.md|Texty
+heading.md|Určení nadpisu
+indexing.md|Indexace
+newLang.md|Nový jazyk
+helpCfg.md|Konfigurace nápovědy
+tocIcon.md|Ikony stromu témat
+innerJS.md|JavaScript bloky
+mdata/files.lst.md|Seznam souborů
+mdata/keywords.lst.md|Seznam klíčových slov
+mdata/keywords-files.lst.md|Klíčová slova - soubor
+mdata/tree.lst.md|Strom témat
+fulltextIndex.md|Fulltext index
