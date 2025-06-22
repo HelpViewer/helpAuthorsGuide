@@ -16,7 +16,7 @@ Z pohledu souborů je význam následující:
 
 | Soubor / cesta | Popis |
 |---|---|
-| .github/workflows/publish.yml | CI skript, který slouží pro sestavení nápovědy. Jeho výsledkem je vydání s přílohami **Help-(zkratka jazyka).zip** a **Help-.zip** s daty z adresáře **_base** |
+| .github/workflows/publish.yml | CI skript, který slouží pro [sestavení nápovědy][build]. Jeho výsledkem je vydání s přílohami **Help-(zkratka jazyka).zip** a **Help-.zip** s daty z adresáře **_base** |
 | README.md | Základní popis projektu (upravte podle své potřeby) |
 | LICENSE | Text licence (upravte podle své potřeby) |
 | CHANGELOG.md | Záznam o změnách v projektu. Tento soubor slouží jako podklad pro popisy nových verzí, které vydáte |
@@ -48,3 +48,4 @@ Podadresář cs/ :
 [configDesc]: helpCfg.md ""
 [Dkeywords-files.lst]: mdata/keywords-files.lst.md "keywords-files.lst"
 [newLang]: newLang.md ""
+[build]: publish.md ""

@@ -20,3 +20,6 @@ mdata/keywords.lst.md|Seznam klíčových slov
 mdata/keywords-files.lst.md|Klíčová slova - soubor
 mdata/tree.lst.md|Strom témat
 fulltextIndex.md|Fulltext index
+publish.md|Postup vydání
+customUI.md|Úprava UI
+token.md|GitHub Token
