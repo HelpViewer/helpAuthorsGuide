@@ -7,7 +7,8 @@ Během přípravy Vaší nápovědy ji můžete offline procházet i přesto, ž
 file://.../HelpViewer/?d=../VaseNapoveda/__/
 ```
 
+- __ zastupuje zkratku uživatelem zvoleného jazyka
 - Pokud by cesta nefungovala, lomítka **/** v d nahraďte za **%2F**
-- Fulltextový bude po dobu těchto testů nefunkční (je sestaven automaticky až při vydávání)
+- Fulltextové vyhledávání bude po dobu těchto testů nefunkční (index je sestaven automaticky až při vydávání)
 
 [HV]: https://github.com/orgs/HelpViewer/repositories "Repozitáře"

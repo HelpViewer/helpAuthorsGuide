@@ -4,7 +4,7 @@
 - Je doporučené, aby všechny soubory byly jeho součástí.
 - Jeden řádek = jedna položka
 - Zalomení řádku uprostřed definice není povoleno
-- Soubor je využíván v případě slovníků klíčových slov (📇) a fulltext vyhledávání (🔎). V obou indexech nabízí popisné jméno souboru. V případě, že se soubor v seznamu neobjeví, zobrazí se jeho relativné cesta a název
+- Soubor je využíván v případě slovníků klíčových slov (📇) a fulltext vyhledávání (🔎). V obou indexech nabízí popisné jméno souboru. V případě, že se soubor v seznamu neobjeví, zobrazí se jeho relativní cesta a název
 
 ## Struktura souboru
 

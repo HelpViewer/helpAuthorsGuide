@@ -1,6 +1,6 @@
 # 📇 Seznam klíčových slov (keywords.lst)
 
-- Soubor definuje seznam klíčových nápovědy
+- Soubor definuje seznam klíčových slov nápovědy
 - Jeden řádek = jedna položka
 - Zalomení řádku uprostřed definice není povoleno
 - Soubor je využíván v případě slovníků klíčových slov (📇)
