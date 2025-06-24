@@ -6,7 +6,7 @@
 
 ## Význam souborů v lokalizaci
 
-- Všechny soubory vytvořte ve znakové sadě UTF-8 no BOM (65001)
+- Všechny soubory vytvořte ve znakové sadě **UTF-8 no BOM (65001)**.
 
 | Soubor | Popis |
 |---|---|
