@@ -23,3 +23,10 @@ fulltextIndex.md|Fulltext index
 publish.md|Postup vydání
 customUI.md|Úprava UI
 token.md|GitHub Token
+integration.md|Integrace s aplikacemi
+helpviewer.md|Projekt HelpViewer
+=latestApp|Stáhnout poslední verzi
+https://github.com/HelpViewer/HelpViewer|GitHub repozitář
+https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer|Kontejnerové obrazy
+https://discord.gg/J2SjcmqHSZ|Uživatelská skupina
+newLangViewer.md|Nový jazyk prohlížeče

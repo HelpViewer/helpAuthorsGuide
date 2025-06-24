@@ -11,4 +11,6 @@ file://.../HelpViewer/?d=../VaseNapoveda/__/
 - Pokud by cesta nefungovala, lomítka **/** v d nahraďte za **%2F**
 - Fulltextové vyhledávání bude po dobu těchto testů nefunkční (index je sestaven automaticky až při vydávání)
 
+Fráze **[pub]** v textové zprávě komitu spouští přípravu Release. V rámci tohoto komitu mějte připraven popis na začátku CHANGELOG.md souboru. Tento popis se použije do textu Release.
+
 [HV]: https://github.com/orgs/HelpViewer/repositories "Repozitáře"

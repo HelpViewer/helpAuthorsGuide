@@ -14,13 +14,13 @@ Zjednodušený postup pro vydání nápovědy lze shrnout takto:
 ```
 git add .
 ```
-1. Slučte změny do repozitáře:
+4. Slučte změny do repozitáře:
 ```
 git commit -m "Úpravy nápovědy"
 ```
 "Úpravy nápovědy" - zde může být jakákoli Vaše popisná zpráva
 
-1. Připravte změnu v souboru **CHANGELOG.md** na kořeni repozitáře tak, aby začýtek souboru vypadal:
+5. Připravte změnu v souboru **CHANGELOG.md** na kořeni repozitáře tak, aby začátek souboru vypadal:
 ```
 # Changelog
 
@@ -50,8 +50,9 @@ git push
 Pak dojde ke spuštění vydávacího skriptu. 
 
 Výsledkem bude vydání s přílohami:
-- Help-(zkratka jazyka).zip
-- Help-.zip
+- Help-(zkratka jazyka).zip (pro každý jednotlivý jazyk)
+- Help-.zip (pro [Vlastní UI prohlížeče][CustomUI])
 
 [GitRef]: https://git-scm.com/docs "Git"
 [PATToken]: token.md "GitHub PAT token"
+[CustomUI]: customUI.md "Vlastní UI prohlížeče"
