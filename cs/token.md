@@ -45,7 +45,7 @@ https://github.com/(organizace)/(repozitář)/settings/secrets/actions
 ```
 (
 - Na kartě repozitáře nahoře:
-- napravo Settings
+- Napravo Settings
 - Nalevo dole: Secrets and variables
 - Actions
 

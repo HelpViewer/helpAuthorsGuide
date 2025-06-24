@@ -25,4 +25,4 @@
 - Řádek nikdy nekončí středníkem
 - Alespoň pozice [1] musí být definována
 - Synonyma jsou rozložena na jednotlivá slova a uživateli je pro všechna tato slova nabízen stejný seznam témat (**keywords-files.lst**)
-- V případě, že se synonyma budou překrývat napříč řádky (vyskytne se jedno synonymum na více řádcích), HelpViewer sestaví seznam témat ve kterém bude každé téma jen jednou (rozhodne se zde podle files.lst)
+- V případě, že se synonyma budou překrývat napříč řádky (vyskytne se jedno synonymum na více řádcích), HelpViewer sestaví sloučený seznam témat ve kterém bude každé téma jen jednou (rozhodne se zde podle files.lst)

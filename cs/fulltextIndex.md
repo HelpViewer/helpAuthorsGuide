@@ -13,8 +13,8 @@ Logika procesu přípravy fulltext indexu se nachází v repozitáři [fulltextS
 
 Pro každý jazyk samostatně proběhnou tyto kroky:
 
-1. do indexace se vyberou soubory: \*.md;\*.htm;\*.html
-2. vše se převede na UTF-8 kódovou stránku
+1. Do indexace se vyberou soubory: \*.md;\*.htm;\*.html
+2. Vše se převede na UTF-8 kódovou stránku
 3. Chybějící soubory v [seznamu souborů][Dfiles.lst] jsou vloženy na konec seznamu bez záložního nadpisu
 4. Všechna písmena textu se převedou na malá
 5. Odebere se diakritika a speciální znaky (about:blank -> aboutblank)
