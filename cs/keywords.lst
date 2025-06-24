@@ -2,13 +2,13 @@ Přehled
 Funkce
 Postup
 Struktura
-Cesty;Adresáře
-Rady;Doporučení
+Cesta;Adresář
+Rada;Doporučení
 GitHub;Repozitář
 Dokument;Kapitola
 W3C
-Odkazy
-Obrázky
+Odkaz
+Obrázek
 WYSIWYG
 Kód
 Diagram;Graf
@@ -16,7 +16,7 @@ Text
 Nadpis;Členění;Kapitola;Podkapitola
 Entita
 Index;Slovník;Matadata
-Jazyk;Lokalizace;Překlady
+Jazyk;Lokalizace;Překlad
 Nastavení;Přizpůsobení;Strom;Konfigurace
 Ikona
 Javascript
@@ -26,4 +26,4 @@ Nastavení;Přizpůsobení;Konfigurace
 Token
 Integrace;Slučitelnost;Kompatibilita
 HelpViewer
-Odkazy
+Odkaz
