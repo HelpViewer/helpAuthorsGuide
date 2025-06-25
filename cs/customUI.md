@@ -1,15 +1,27 @@
 # 🛠️Vlastní UI prohlížeče
 
+## Plné přepsání
+
 1. V adresáři **HelpViewer** v **hvdata/data.zip** naleznete tyto soubory:
 | Soubor | Popis |
 |---|---|
 | layout.htm | HTML kód rozhraní |
 | appmainNext.js | Programová logika |
 | main.css | CSS styl pro formátování vzhledu |
+
 2. Extrahujte je
 3. Založte složku **_base** v hlavním adresáři repozitáře nápovědy (na stejné úrovni jako adresáře s jazykovými verzemi)
-4. Soubory zkopírujte do složky _base
+4. Soubory zkopírujte do složky **_base**
 5. Proveďte potřebné úpravy v těchto souborech
+
+## Čisté rozšíření
+
+Pokud chcete provést pouhé přidání funkcionality, pak přidejte do složky **_base** tyto soubory:
+
+| Soubor | Popis |
+|---|---|
+| plus.css | CSS styl, který rozšíří nebo přepíše základní definice |
+| plus.js | Rozšiřující programová logika pro stávající logiku prohlížeče |
 
 ## Výsledek
 
