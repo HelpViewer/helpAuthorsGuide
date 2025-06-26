@@ -12,14 +12,7 @@ Obsah kapitoly se načte, zobrazí se a s krátkým odstupem se provedou potřeb
 1. Stáhněte si balíček &lt;span id="linkhereI"&gt;&lt;/span&gt; a rozbalte jej.
 
 &lt;script&gt;
-  async function insertDownloadLink() {
-    const fname = 'package.zip';
-    const path = await getLatestReleaseBundleUri(null, fname);
-    const parentO = document.getElementById('linkhereI');
-    parentO.innerHTML = `&lt;a href="${path}" alt="${fname}" title= "${path}"&gt;${fname}&lt;/a&gt;`;
-  }
-
-  insertDownloadLink();
+  insertDownloadLink('linkhereI');
 &lt;/script&gt;
 ```
 
@@ -28,12 +21,5 @@ Ukázka připraví hypertextový odkaz na stažení poslední vydané verze **He
 1. Stáhněte si balíček <span id="linkhereI"></span> a rozbalte jej.
 
 <script>
-  async function insertDownloadLink() {
-    const fname = 'package.zip';
-    const path = await getLatestReleaseBundleUri(null, fname);
-    const parentO = document.getElementById('linkhereI');
-    parentO.innerHTML = `<a href="${path}" alt="${fname}" title= "${path}">${fname}</a>`;
-  }
-
-  insertDownloadLink();
+  insertDownloadLink('linkhereI');
 </script>
