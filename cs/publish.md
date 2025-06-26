@@ -1,4 +1,4 @@
-# 📦Vydání verze nápovědy
+# 📦 Vydání verze nápovědy
 
 💡 Doporučení:
 - Pokud neznáte **Git**, projděte si jeho [dokumentaci][GitRef].

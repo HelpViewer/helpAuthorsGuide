@@ -1,4 +1,4 @@
-# &#9881;&#65039;Funkce
+# &#9881;&#65039; Funkce
 
 - 🔄 Jednotná platforma pro zobrazování Markdown a HTML souborů (oba formáty mohou být obsažené v jedné nápovědě)
 - 📦 ZIP komprese je podporována (pouze jednodílný archiv), lze také číst nápovědu přímo z adresáře

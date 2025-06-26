@@ -1,4 +1,4 @@
-# 🧩Vložený JavaScript
+# 🧩 Vložený JavaScript
 
 Do **md** textu je možno vložit JavaScript blok, který se vykoná po načtení stránky.
 

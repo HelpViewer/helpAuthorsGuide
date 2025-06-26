@@ -1,4 +1,4 @@
-# 📖Ikony stromu témat
+# 📖 Ikony stromu témat
 
 Ikony stromu témat se určují z dat konkrétní jazykové verze v tomto pořadí od nejvýznamnější:
 

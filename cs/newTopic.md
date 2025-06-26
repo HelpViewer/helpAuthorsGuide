@@ -1,4 +1,4 @@
-# 📄Nová kapitola
+# 📄 Nová kapitola
 
 - Založením nového **md** nebo **htm** souboru zakládáte novou kapitolu v nápovědě.
   - V případě obou souborů dodržujte standardní syntaxi dokumentů ([md][MDSyntax], [HTML 5][HTML5Syntax]).

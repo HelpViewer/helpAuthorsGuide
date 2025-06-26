@@ -1,4 +1,4 @@
-# &#128214;Vytvoření nové nápovědy
+# &#128214; Vytvoření nové nápovědy
 
 1. Přejděte k repozitáři: **[helpTemplate][template]**
 2. Klikněte napravo nahoře na **Use this template** a **Create a new repository**.

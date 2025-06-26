@@ -1,4 +1,4 @@
-# 🔗Odkazy v textech
+# 🔗 Odkazy v textech
 
 - Dvojí podtržítko (**__**) zastupuje vybraný jazyk, který si systém automaticky doplní ze stavu uživatelského nastavení.
 - Odkazy na dokumenty uvádějte v relativních cestách (s použitím ..). 

@@ -1,4 +1,4 @@
-# 📑Určení nadpisu do oblasti nad obsahem kapitoly
+# 📑 Určení nadpisu do oblasti nad obsahem kapitoly
 
 💡 Doporučení:
 - Každá kapitola by měla začínat h1 (1x #) nadpisem, který je v textu úplně prvním nadpisem a je úplně na začátku dokumentu.

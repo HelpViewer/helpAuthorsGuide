@@ -1,4 +1,4 @@
-# 🛠️Vlastní UI prohlížeče
+# 🛠️ Vlastní UI prohlížeče
 
 ## Plné přepsání
 

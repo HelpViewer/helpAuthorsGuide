@@ -1,4 +1,4 @@
-# 🤝Integrace s aplikacemi
+# 🤝 Integrace s aplikacemi
 
 ## Windows a MS.NET
 

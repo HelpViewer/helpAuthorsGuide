@@ -1,4 +1,4 @@
-# 🗂️Struktura projektu nápovědy
+# 🗂️ Struktura projektu nápovědy
 
 ## Adresáře
 
@@ -20,7 +20,7 @@ Z pohledu souborů je význam následující:
 | README.md | Základní popis projektu (upravte podle své potřeby) |
 | LICENSE | Text licence (upravte podle své potřeby) |
 | CHANGELOG.md | Záznam o změnách v projektu. Tento soubor slouží jako podklad pro popisy nových verzí, které vydáte |
-| _base | Není standardně definován. V tomto adresáři můžete přepsat standardní UI prohlížeče |
+| _base | Není standardně definován. V tomto adresáři můžete přepsat standardní [UI prohlížeče][cusui] |
 | _invariant | Společná data pro všechny jazykové verze. Jejich obsah přepíše veškeré soubory se stejným jménem v jednotlivých jazykových složkách |
 | adresáře cs, en, ... | 🌐 [Jazykové verze][newLang] nápovědy. Vytvořením nového adresáře založíte novou jazykovou verzi nápovědy. |
 
@@ -49,3 +49,4 @@ Podadresář cs/ :
 [Dkeywords-files.lst]: mdata/keywords-files.lst.md "keywords-files.lst"
 [newLang]: newLang.md ""
 [build]: publish.md ""
+[cusui]: customUI.md "Přizpůsobení UI"

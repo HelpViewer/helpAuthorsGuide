@@ -1,4 +1,4 @@
-# 🔎Indexace kapitoly
+# 🔎 Indexace kapitoly
 
 Po vytvoření je vhodné kapitolu zapsat například do těchto seznamů:
 

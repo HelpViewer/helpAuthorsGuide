@@ -1,4 +1,4 @@
-# 🌐Nový jazyk nápovědy
+# 🌐 Nový jazyk nápovědy
 
 1. Pro nový jazyk nápovědy je potřeba ve Vašem repozitáři na hlavní úrovni založit nový adresář se zkratkou jazyka.
     - Při určení této zkratky se řiďte seznamem zkratek známých jazyků v [repozitáři lokalizací][Localiz] HelpViewer. Výhodou tohoto postupu je automatické přepnutí verze nápovědy uživatelem při nastavení jazyka celého prostředí.

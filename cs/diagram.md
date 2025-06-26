@@ -1,4 +1,4 @@
-# 📊Diagram
+# 📊 Diagram
 
 Výpis diagramu do **md** vložíte tímto způsobem:
 

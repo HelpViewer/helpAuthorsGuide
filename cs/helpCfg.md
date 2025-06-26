@@ -1,4 +1,4 @@
-# 🛠️Konfigurace nápovědy
+# 🛠️ Konfigurace nápovědy
 
 Konfiguraci nápovědy změníte v souboru **_config.txt**. Soubor se nachází v podsložce jazykové verze nápovědy. Každý jazyk má svoji vlastní verzi.
 

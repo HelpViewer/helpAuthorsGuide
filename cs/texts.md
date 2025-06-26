@@ -1,4 +1,4 @@
-# 📝Texty kapitol
+# 📝 Texty kapitol
 
 HelpViewer předpokládá, že text bude ve znakové sadě **UTF-8 no BOM (65001)**.
 

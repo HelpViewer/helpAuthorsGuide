@@ -1,4 +1,4 @@
-# 🔎Fulltextové vyhledávání (fts-keywords.lst)
+# 🔎 Fulltextové vyhledávání (fts-keywords.lst)
 
 - Soubor je využíván v případě  fulltext vyhledávání (🔎)
 - Nachází se v jazykové verzi nápovědy.
