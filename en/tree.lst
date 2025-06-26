@@ -1,1 +1,32 @@
-Overview chapter|Overview||README.md
+Authoring Guide|Authoring Guide||README.md
+ ⚙️ Features|Features list||features.md
+💡 General recommendation|General recommendation||general.md
+New help file|Create new help file||newHelp.md
+ 🗂️ Help project structure|Help project structure||struct.md
+Help configuration|Help configuration||helpCfg.md
+ 📖 TOC icons|TOC icons||tocIcon.md
+ 🔎 Fulltext search|Fulltext search (fts-keywords.lst)||fulltextIndex.md
+ 🛠️ Viewer Custom UI|Viewer Custom UI||customUI.md
+New chapter|New chapter||newTopic.md
+ 📝 Chapter text|Chapter text||texts.md
+ 📑 Heading detection|Heading detection||heading.md
+ 🔗 Links|Links in texts||links.md
+ 🖼️ Images|Images in texts||images.md
+ 🧾 Code listing|Code listing in texts||code.md
+ 📊 Diagram|Diagram||diagram.md
+ 🧩 JavaScript|JavaScript embedded block||innerJS.md
+Indexation|Chapter indexation and metadata description||indexing.md
+ 📖 TOC|TOC (tree.lst)||mdata/tree.lst.md
+ 📑 File list|File list (files.lst)||mdata/files.lst.md
+ 📇 Keywords list|Keywords list (keywords.lst)||mdata/keywords.lst.md
+ 📇 Keyword - file connection|Keyword - file connection (keywords-files.lst)||mdata/keywords-files.lst.md
+Publishing of help|Publishing of help||publish.md
+ 🔑 Token|GitHub PAT token||token.md
+🌐 New language|New language||newLang.md
+🤝 Integration with application|Integration with application||integration.md
+Project HelpViewer|Project HelpViewer||helpviewer.md
+ 🌐 New language|New language||newLangViewer.md
+ 🚀 Download latest version|Package for offline use and deployment||=latestApp
+ 🔗 GitHub|GitHub repository||https://github.com/HelpViewer/HelpViewer
+ 🐳 Container images|Container images||https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer
+ 💬 User group|Discord user group||https://discord.gg/J2SjcmqHSZ
