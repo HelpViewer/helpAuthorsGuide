@@ -16,6 +16,12 @@ Obsah kapitoly se načte, zobrazí se a s krátkým odstupem se provedou potřeb
 &lt;/script&gt;
 ```
 
+U funkce insertDownloadLink můžete také provést volání insertDownloadLink('cilovy prvek', 'maska'), kde v textu masky bude speciální znak:
+
+- @ = nejnovější verze
+- | = package.zip (stejné chování jako bez masky)
+- _ = současná verze aplikace HelpViewer (nikoli nápovědy) u uživatele
+
 Ukázka připraví hypertextový odkaz na stažení poslední vydané verze **HelpViewer** a vloží jej do pojmenovaného prvku span:
 
 1. Stáhněte si balíček <span id="linkhereI"></span> a rozbalte jej.
