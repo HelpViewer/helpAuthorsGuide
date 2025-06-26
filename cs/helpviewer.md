@@ -28,6 +28,15 @@ Repozitáře bývají pojmenovány **help\***. Vzhledem k pojmenování projektu
 | [helpUser][RhelpUser] | Nápověda pro uživatele prohlížeče. Popisuje základní práci s prohlížečem. |
 | [helpAuthorsGuide][RhelpAuthorsGuide] | (Tato) Nápověda pro autory nápověd. Popisuje vyškeré kroky, které jsou potřebné k vytvoření a vydání nápovědy. |
 
+## Vydávání verzí
+
+- Verze se vydávají nepravidelně
+- Číslem verze je vždy datum daného vydání ve formátu rokměsícden (například: 20250621)
+- Pokud se v daný den vydá více verzí, pak první má formát rokměsícden a každá další má příponu **-číslo** od 1 s krokem 1, tedy například: 20250606-1, 20250606-2
+- Data pro popis změn verzí se získávají z **CHANGELOG.md** v kořeni repozitáře. Popis pro nejnovější verzi se připojuje vždy na začátek souboru. Nejstarší verze bývají ve výpisu nejníže. Poslední sekci s "**File introduced**" neměňte a neodebírejte - slouží i pro Vaši informaci
+- Tento postup platí jak pro **HelpViewer**, tak i další nástroje a vydávané nápovědy
+- Postup je doporučován i pro autory nápověd, přestože mají možnost si tento bod rozhodnout po svém
+
 [HelpViewer]: https://github.com/HelpViewer "HelpViewer"
 [RHelpViewer]: https://github.com/HelpViewer/HelpViewer "HelpViewer"
 [RTranslations]: https://github.com/HelpViewer/Translations "Překlady"

@@ -1,7 +1,9 @@
 # Dokumentace pro autory
 
 Cílem dokumentace je popsat: 
-- postupy pro tvorbu vlastní nápovědy,
-- vnitřní formát metadat,
-- významná specifika HelpViewer a jeho procesů,
-- přístupy pro integraci mezi aplikacemi a nápovědou
+- Postupy pro tvorbu vlastní nápovědy,
+- Vnitřní formát indexací a metadat,
+- Významná specifika HelpViewer a jeho procesů,
+- Přístupy pro integraci mezi aplikacemi a nápovědou
+- Přehled struktury GitHub organizace HelpViewer a popis verzování
+- Popis možností rozšíření samotného projektu
