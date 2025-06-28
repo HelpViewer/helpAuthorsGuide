@@ -1,6 +1,6 @@
 # 📑 Heading detection
 
-💡 Recommendations:
+💡 Recommendation:
 - Each chapter should start with h1 (1x #) heading which will be the 1st one heading and text on the start of the document.
 
 **HelpViewer** resolves document heading in this order of priority (from most significant):
