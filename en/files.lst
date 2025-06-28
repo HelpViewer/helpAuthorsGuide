@@ -1,1 +1,32 @@
-README.md|Overview
+README.md|Authoring Guide
+features.md|Features
+newHelp.md|Create new help file
+struct.md|Help project structure
+general.md|General recommendation
+newTopic.md|New chapter
+links.md|Odkazy v textech
+images.md|Images in text
+code.md|Code listing
+diagram.md|Diagram
+texts.md|Texts
+heading.md|Heading detection
+indexing.md|Chapter indexation
+newLang.md|New language for help file
+helpCfg.md|Help configuration
+tocIcon.md|TOC icons
+innerJS.md|Inline JavaScript blocks
+mdata/files.lst.md|File list
+mdata/keywords.lst.md|Keywords list
+mdata/keywords-files.lst.md|Keyword - file connection
+mdata/tree.lst.md|TOC tree
+fulltextIndex.md|Fulltext index
+publish.md|Publishing steps
+customUI.md|Viewer Custom UI
+token.md|GitHub Token
+integration.md|Integration with application
+helpviewer.md|HelpViewer Project
+=latestApp|Download latest version
+https://github.com/HelpViewer/HelpViewer|GitHub repository
+https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer|Container images
+https://discord.gg/J2SjcmqHSZ|User group
+newLangViewer.md|New language for Viewer
