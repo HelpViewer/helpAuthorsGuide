@@ -1,5 +1,6 @@
 # 📑Seznam souborů (files.lst)
 
+- ⚠️ Tento formát je velmi přísný, prosím, dodržujte pravidla přesně.
 - Soubor definuje seznam platných kapitol nápovědy
 - Je doporučené, aby všechny soubory byly jeho součástí.
 - Jeden řádek = jedna položka
