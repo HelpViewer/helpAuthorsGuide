@@ -11,11 +11,12 @@ Níže naleznete obvyklé způsoby definice odkazu.
 
 ### Jiné téma/stránka
 ```
-Spusťte prohlížeč bez [CORS omezení][bypassCORS] nebo budete vidět pouze prázdnou stránku.
+Soubor definuje propojení [klíčových slov][Dkeywords.lst] a [seznamu souborů][Dfiles.lst]
 // ... na konci souboru:
-[bypassCORS]: corsPolicy.md "Prohlížeč může blokovat přístup k místním souborům (file://) kvůli CORS politikám"
+[Dfiles.lst]: mdata/files.lst.md "files.lst"
+[Dkeywords.lst]: mdata/keywords.lst.md "keywords.lst"
 ```
-Spusťte prohlížeč bez [CORS omezení][bypassCORS] nebo budete vidět pouze prázdnou stránku.
+Soubor definuje propojení [klíčových slov][Dkeywords.lst] a [seznamu souborů][Dfiles.lst]
 
 ### Jiné téma a jeho podkapitola
 ```
@@ -64,7 +65,8 @@ Uvidíte [uživatelskou dokumentaci][userdoc2] přímo v HelpViewer, podobně ja
 
 Uvidíte [uživatelskou dokumentaci][userdoc2] přímo v HelpViewer, podobně jako teď vidíte tento web.
 
-[bypassCORS]: corsPolicy.md "Prohlížeč může blokovat přístup k místním souborům (file://) kvůli CORS politikám"
+[Dfiles.lst]: mdata/files.lst.md "files.lst"
+[Dkeywords.lst]: mdata/keywords.lst.md "keywords.lst"
 [working]: README.md#how-it-works "Jak aplikace pracuje"
 [JSZIP]: http://jszip.org/ "JSZip - práce se ZIP soubory"
 [userdoc]: ?d=hlp-user/Help-__.zip "Rychlá příručka pro uživatele"
