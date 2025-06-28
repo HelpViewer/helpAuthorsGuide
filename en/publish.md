@@ -28,7 +28,7 @@ git commit -m "Help file changes"
 - My changes
 ```
 
-kde:
+where:
 
 | Position | Description |
 |---|---|
