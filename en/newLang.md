@@ -1,7 +1,7 @@
 # 🌐 New language for help file
 
 1. For a new help language, you need to create a new directory with the language abbreviation in your main level repository.
-    - To determine this abbreviation, refer to the list of known language abbreviations in the [localization Repository][Localiz] HelpViewer. This has the advantage of automatically switching the user's version of help when setting the language of the entire environment.
+    - To determine this abbreviation, refer to the list of known language abbreviations in the [localization repository][Localiz] HelpViewer. This has the advantage of automatically switching the user's version of help when setting the language of the entire environment.
     - If no suitable abbreviation exists, choose an abbreviation ideally according to **ISO 639-1**. 
     - You can write help in your language, even if **HelpViewer** itself is not localized.
 2. The directory should ideally be based on a copy of an existing localization that you understand, so that you have the texts of both languages side by side.

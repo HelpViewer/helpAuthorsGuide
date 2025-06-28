@@ -51,10 +51,10 @@ https://github.com/(organizace)/(repozitář)/settings/secrets/actions
 
 )
  
-1. On right: Repository secrets
-2. New repository secret
-3. Name: **_TOKEN** (name cannot be changed)
-4. Enter the code you saved from the previous step
-5. Add secret
+2. On right: Repository secrets
+3. New repository secret
+4. Name: **_TOKEN** (name cannot be changed)
+5. Enter the code you saved from the previous step
+6. Add secret
 
 The hint build process should now work correctly.
