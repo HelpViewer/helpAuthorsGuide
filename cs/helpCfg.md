@@ -34,5 +34,6 @@ klíč|hodnota
 | Jméno klíče | Popis a význam |
 |---|---|
 | _lang | Jazyk tohoto balíku nápovědy |
+| _langs | Seznam všech jazyků nápovědy, které byly v daném procesu vydání zpracovány. Slouží jako jeden ze zdrojů seznamu 🌐. |
 | _version | Verze vydání (převzata ze souboru CHANGELOG.md) |
 | _prjname | (organizace)/(jméno repozitáře) ve kterém se nápověda v době sestavení nacházela. |

@@ -34,5 +34,6 @@ key|value
 | Key name | Meaning |
 |---|---|
 | _lang | Current help file (package) language |
+| _langs | Current help file (package) all languages which were published by pipeline. Used as one of sources of 🌐 list. |
 | _version | Released version (took from CHANGELOG.md) |
 | _prjname | (organization)/(repository name) in what the help file was present during publishing process. |
