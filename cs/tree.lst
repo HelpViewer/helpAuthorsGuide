@@ -1,6 +1,7 @@
 Dokumentace pro autory|Dokumentace pro autory||README.md
  ⚙️ Funkce|Seznam funkcí||features.md
 💡 Obecná doporučení|Obecná doporučení||general.md
+👀 Zobraz repozitář|Zkuste si HelpViewer s vlastním repozitářem dokumentace||:viewRepo.htm
 Nová nápověda|Vytvoření nové nápovědy||newHelp.md
  🗂️ Struktura projektu|Struktura projektu nápovědy||struct.md
 Konfigurace nápovědy|Konfigurace nápovědy||helpCfg.md

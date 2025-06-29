@@ -1,6 +1,7 @@
 Authoring Guide|Authoring Guide||README.md
  ⚙️ Features|Features list||features.md
 💡 General recommendation|General recommendation||general.md
+👀 View your repository|Try HelpViewer with your own documentation repository||:viewRepo.htm
 New help file|Create new help file||newHelp.md
  🗂️ Help project structure|Help project structure||struct.md
 Help configuration|Help configuration||helpCfg.md
