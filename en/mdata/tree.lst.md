@@ -29,3 +29,4 @@
 | =latestApp | Looks up the URI for the latest version of HelpViewer |
 | =latestHelp | Looks up the URI for the latest version of the help file (if the repository is hosted on GitHub as public) |
 | :(...) | The system takes the relative path from the application data, not the help. At this point, **viewRepo.htm** is the only appropriate value. |
+| ~~ | If these characters appear anywhere in the path, they will be replaced by the version of the open help package. |
