@@ -29,4 +29,4 @@
 | =latestApp | Vyhledá URI pro poslední verzi HelpViewer |
 | =latestHelp | Vyhledá URI pro poslední verzi souboru nápovědy (pokud je repozitář hostován na GitHub jako veřejný) |
 | :(...) | Relativní cestu systém vezme z dat aplikace, nikoli nápovědy. V této chvíli je **viewRepo.htm** jedinou vhodnou hodnotou. |
-| ~~ | Pokud se v cestě někde objeví tyto znaky, pak budou nahrazeny verzí otevženého balíku nápovědy. |
+| ~~ | Pokud se v cestě někde objeví tyto znaky, pak budou nahrazeny verzí otevřeného balíku nápovědy. |
