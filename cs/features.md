@@ -6,6 +6,7 @@
 - 🧠 Zvýraznění syntaxe u výpisů zdrojových kódů
 - 🎨 Aplikace je přístupná úpravám vzhledu, rozložení i funkcionality
 - 🌐 Podpora více jazykových verzí nápovědy
+- 🕘 Přepínání mezi verzemi nápovědy (je potřeba být připojen k Internetu)
 - 🤖 Automatizovaná CI/CD příkazová dávka pro rychlé a bezpečné nasazování (výsledkem je 1 zip archiv na jeden jazyk nápovědy)
 - 🧩 Kód je snadno rozšiřitelný a open source
 - 🔧 Ve spolupráci s infrastrukturou GitHub je proces tvorby nápovědy přehledně strukturovaný a řada kroků probíhá automaticky s minimální potřebou ručního zásahu

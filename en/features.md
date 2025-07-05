@@ -6,6 +6,7 @@
 - 🧠 Syntax highlighting for code blocks
 - 🎨 Flexible customization of appearance and functionality
 - 🌐 Multi language version help supported
+- 🕘 Easily switch help file version (Internet connection required)
 - 🤖 Automated CI/CD release pipeline (package: 1 ZIP file for each one language version)
 - 🧩 Open-source and extendable code
 - 🔧 With GitHub infrastructure the help creation process is clearly structured and many of steps are done automatically with minimal effort or manual action
