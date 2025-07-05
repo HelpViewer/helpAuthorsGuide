@@ -17,8 +17,8 @@
 
 | Position | Description |
 |---|---|
-| [1] | Index propojeného souboru (počítáno od nuly) |
-| [2] | Index propojeného souboru (počítáno od nuly). Opakování je přípustné, vždy je však před informací středník (**;**) |
+| [1] | Zero based index of interconnected file |
+| [2] | Zero based index of interconnected file. Repeating of this information is allowed, but just before this semicolon (**;**) is required. |
 
 ## Rules
 
