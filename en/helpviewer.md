@@ -15,7 +15,7 @@ Organization [HelpViewer][HelpViewer] contains 2 basic types of repositories:
 | [Translations][RTranslations] | Language translation strings for UI of HelpViewer. Repository is inserted to **HelpViewer** as a Git submodule. It is also one of the sources of language list which is offered to user for language selection of UI and help file version. |
 | [.github][R.github] | Base repository of organization with operational information. |
 | [helpviewer.github.io][RWebHello] | GitHub Pages project for web presentation. [CI deployment script][RWebHelloDeploy] will do page content update with defined version number to deploy. |
-| [fulltextSearchDBBuilder][FTSIndexBuilder] | Full text index generator logic. This Bash skript is used by CI scripts which handles publishing of help files in case there is required to create full text index. |
+| [fulltextSearchDBBuilder][FTSIndexBuilder] | Full text index generator logic. This Bash script is used by CI scripts which handles publishing of help files in case there is required to create full text index. |
 | [helpTemplate][RhelpTemplate] | Template for help file project. It is intended for help authors as a basic blank project. |
 
 ## Help files repositories
@@ -25,7 +25,7 @@ Repository names are starting with **help\***. Due to the naming of the project,
 | Repository | Content |
 |---|---|
 | [helpHello][RhelpHello] | Project hello help file for public web presentation. |
-| [helpUser][RhelpUser] | Help file with starting instruction, UI description for HelpViewer users. Ut describes basic work with Viewer. |
+| [helpUser][RhelpUser] | Help file with starting instruction, UI description for HelpViewer users. It describes basic work with Viewer. |
 | [helpAuthorsGuide][RhelpAuthorsGuide] | (This) Help file (pages) for help file authors. Describes all necessary steps for creation and publishing of your own help file. |
 
 ## Version publishing
