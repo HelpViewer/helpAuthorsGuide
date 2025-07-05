@@ -1,5 +1,8 @@
 # Changelog
 
+## 20250705
+- EN: keywords-files.lst : translated position description section
+
 ## 20250630
 - EN, CZ : Tree items : Added View repository wizard
 - EN, CZ : helpCfg - mentioned _langs config key, files - fix of translation in one file
