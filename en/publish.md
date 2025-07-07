@@ -21,7 +21,7 @@ git commit -m "Help file changes"
 "Help file changes" - any of your descriptive messages can be here
 
 5. Make a change to the **CHANGELOG.md** file at the root of the repository so that the beginning of the file looks like:
-```
+```markdown
 # Changelog
 
 ## YMD

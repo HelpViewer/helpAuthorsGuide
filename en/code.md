@@ -4,14 +4,18 @@ There is no support for this in HTML documents.
 
 You will insert code listing to **md** file this way:
 
-````
-```
-Your code snippet text
+````markdown
+```javascript
+  function configGetValue(key, backup, CFG = FILE_CONFIG) {
+  //...
+  } 
 ```
 ````
 
 Example:
 
-```
-Your code snippet text
+```javascript
+  function configGetValue(key, backup, CFG = FILE_CONFIG) {
+  //...
+  } 
 ```

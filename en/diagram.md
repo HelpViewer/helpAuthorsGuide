@@ -2,7 +2,7 @@
 
 You will insert diagram to **md** file this way:
 
-````
+````markdown
 ```mermaid
 graph TD; 
   A-->B; 

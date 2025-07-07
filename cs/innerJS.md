@@ -8,12 +8,12 @@ Obsah kapitoly se načte, zobrazí se a s krátkým odstupem se provedou potřeb
 - Buďte, prosím, slušní a využívejte tuto funkci aplikace uvážlivě s ohledem na uživatelský komfort a dodržení pravidel přístupnosti u své nápovědy. HelpViewer zde žádným způsobem nezasahuje do logiky skriptu, pouze ji předá k dalšímu zpracování na straně klienta.  
   **Za obsah a dopady skriptů vložených v rámci nápovědy nese odpovědnost autor nápovědy.**
 
-```
-1. Stáhněte si balíček &lt;span id="linkhereI"&gt;&lt;/span&gt; a rozbalte jej.
+```markdown
+1. Stáhněte si balíček <span id="linkhereI"></span> a rozbalte jej.
 
-&lt;script&gt;
+<script>
   insertDownloadLink('linkhereI');
-&lt;/script&gt;
+</script>
 ```
 
 U funkce insertDownloadLink můžete také provést volání insertDownloadLink('cilovy prvek', 'maska'), kde v textu masky bude speciální znak:

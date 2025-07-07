@@ -21,7 +21,7 @@ git commit -m "Úpravy nápovědy"
 "Úpravy nápovědy" - zde může být jakákoli Vaše popisná zpráva
 
 5. Připravte změnu v souboru **CHANGELOG.md** na kořeni repozitáře tak, aby začátek souboru vypadal:
-```
+```markdown
 # Changelog
 
 ## rokměsícden

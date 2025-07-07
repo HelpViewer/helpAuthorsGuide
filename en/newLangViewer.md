@@ -18,7 +18,7 @@
 
 ### lstr.js
 
-```
+```javascript
 var _lstr = {
   'key' : () => `value ${global-variable}`,
 }; 

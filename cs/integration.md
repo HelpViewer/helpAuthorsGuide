@@ -6,13 +6,13 @@
 - WPF - [WebView2][WebView2].Source
 - Spouštění web prohlížeče skriptem s použitím URI
 - Spouštění URI pomocí ShellAPI.[ShellExecuteW][ShellExecuteW]:
-```
+```cpp
 ShellExecuteW(NULL, "open", 
   "https://helpviewer.github.io/?d=hlp%2FHelp-__.zip&p=ideas.md", 
   NULL, NULL, SW_SHOWNORMAL);
 ```
 - Spouštění URI pomocí System.Diagnostics.[Process.Start][Process-Start]:
-```
+```csharp
 Process.Start(new ProcessStartInfo(
   "https://helpviewer.github.io/?d=hlp%2FHelp-__.zip&p=ideas.md"
   ) { UseShellExecute = true });

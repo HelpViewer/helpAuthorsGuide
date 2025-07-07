@@ -3,11 +3,11 @@
 ## Adresáře
 
 V repozitáři se nachází tato adresářová struktura:
-```
-├───.github
-│   └───workflows
-├───cs
-└───en
+```treeview
+.github/
+    workflows/
+cs/
+en/
 ```
 
 ## Struktura repozitáře

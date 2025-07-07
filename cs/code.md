@@ -4,14 +4,18 @@ Pro HTML dokumenty zde v tomto není žádná podpora.
 
 Výpis zdrojového kódu do **md** vložíte tímto způsobem:
 
-````
-```
-Text Vašeho kódu
+````markdown
+```javascript
+  function configGetValue(key, backup, CFG = FILE_CONFIG) {
+  //...
+  } 
 ```
 ````
 
 Ukázka:
 
-```
-Text Vašeho kódu
+```javascript
+  function configGetValue(key, backup, CFG = FILE_CONFIG) {
+  //...
+  } 
 ```

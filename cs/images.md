@@ -2,7 +2,7 @@
 
 Obrázky do kapitoly vložíte tímto způsobem:
 
-```
+```markdown
 ![popis když obrázek neexistuje](cesta/k/obrazku.png "Popisek obrázku pro bublinovou nápovědu")
 ```
 

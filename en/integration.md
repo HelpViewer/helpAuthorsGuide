@@ -6,13 +6,13 @@
 - WPF - [WebView2][WebView2].Source
 - Run web browser with URI path
 - Run URI with ShellAPI.[ShellExecuteW][ShellExecuteW]:
-```
+```cpp
 ShellExecuteW(NULL, "open", 
   "https://helpviewer.github.io/?d=hlp%2FHelp-__.zip&p=ideas.md", 
   NULL, NULL, SW_SHOWNORMAL);
 ```
 - Run URI with System.Diagnostics.[Process.Start][Process-Start]:
-```
+```csharp
 Process.Start(new ProcessStartInfo(
   "https://helpviewer.github.io/?d=hlp%2FHelp-__.zip&p=ideas.md"
   ) { UseShellExecute = true });

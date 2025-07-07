@@ -13,7 +13,7 @@ In next subchapters of this chapter there are more information which you should 
 Inside chapter text you can insert unicode letters/characters also. Some of them stands for icons which you can use without need to install any other external library.
 
 The insertion into the chapter text is done either by direct copy of the character or by inserting two other shapes (HTML character entities):
-```
+```markdown
 💡
 &amp;#128161;
 &amp;#x1F4A1;
@@ -25,7 +25,7 @@ For exact codes and situations I advice to use Copilot/ChatGPT, which will help 
 
 For correct bullet list item there is required to have a space between marking (number for numbered list, - for bullet list):
 
-```
+```markdown
 - Point2
 1. Point2
 ```
@@ -45,7 +45,7 @@ B)
 ## Paragraphs
 
 In case of paragraph there is need to have one empty row between them in **md** file:
-```
+```markdown
 First paragraph
 
 Second paragraph
@@ -76,11 +76,11 @@ Example:
 
 With usage of plain HTML code you can create collapsible section in text of your chapter. Rendering logic will correctly transfers to correct output for user.
 
-```
-&lt;details&gt;
-&lt;summary&gt;There is main heading here. Another information will be shown when it will be clicked&lt;/summary&gt;
+```html
+<details>
+<summary>There is main heading here. Another information will be shown when it will be clicked</summary>
 There is extended description of given point.
-&lt;/details&gt;
+</details>
 ```
 
 Example:

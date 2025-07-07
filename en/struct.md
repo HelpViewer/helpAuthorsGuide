@@ -3,11 +3,11 @@
 ## Directories
 
 In repository you will see this structure:
-```
-├───.github
-│   └───workflows
-├───cs
-└───en
+```treeview
+.github/
+    workflows/
+cs/
+en/
 ```
 
 ## Structure

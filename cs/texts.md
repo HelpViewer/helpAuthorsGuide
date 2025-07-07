@@ -13,7 +13,7 @@ V dalších podkapitolách této sekce jsou uvedeny další informace, které by
 V rámci textu můžete vkládat také unicode znaky. Některé z nich představují ikonky, které je možno použít bez nutnosti další externí knihovny.
 
 Vložení do textu kapitoly provedete buďto přímou kopií znaku, nebo vložením dalších dvou jiných tvarů (HTML znakové entity):
-```
+```markdown
 💡
 &amp;#128161;
 &amp;#x1F4A1;
@@ -25,7 +25,7 @@ Pro konkrétní kódy a situace doporučuji použití Copilot/ChatGPT, které V�
 
 Odrážkové seznamy nezbytně musí mít mezeru za označením (číslo u číslovaného, - u nečíslovaného seznamu):
 
-```
+```markdown
 - Odrážka2
 1. Odrážka2
 ```
@@ -45,7 +45,7 @@ B)
 ## Odstavce
 
 U **md** je odstavce v textu nutno vytvářet pomocí volného řádku mezi nimi:
-```
+```markdown
 První odstavec
 
 Druhý odstavec
@@ -76,11 +76,11 @@ Ukázka:
 
 Prostým html kódem vytvoříte uzavíratelnou sekci. Zobrazovací logika ji správně převede do výstupu pro uživatele. 
 
-```
-&lt;details&gt;
-&lt;summary&gt;Zde je hlavní nadpis. Kliknutím na něj se rozbalí další informace&lt;/summary&gt;
+```html
+<details>
+<summary>Zde je hlavní nadpis. Kliknutím na něj se rozbalí další informace</summary>
 Zde je zobrazen další popis dané problematiky.
-&lt;/details&gt;
+</details>
 ```
 
 Ukázka:

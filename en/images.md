@@ -2,7 +2,7 @@
 
 You can insert images to chapter text this way:
 
-```
+```markdown
 ![description if image doesn't exists](path/to/image.png "Bubble hint description")
 ```
 

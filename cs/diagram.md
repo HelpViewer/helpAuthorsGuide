@@ -2,7 +2,7 @@
 
 Výpis diagramu do **md** vložíte tímto způsobem:
 
-````
+````markdown
 ```mermaid
 graph TD; 
   A-->B; 
