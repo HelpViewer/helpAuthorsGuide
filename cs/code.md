@@ -19,3 +19,7 @@ Ukázka:
   //...
   } 
 ```
+
+- Pro další příklady a informace si přečtěte dokumentaci knihovny [Prism][Prism]. 
+
+[Prism]: https://prismjs.com/ "Prism - zvýraznění syntaxe výpisů kódu"

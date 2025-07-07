@@ -19,3 +19,7 @@ Example:
   //...
   } 
 ```
+
+- For more examples read the [Prism][Prism] library documentation. 
+
+[Prism]: https://prismjs.com/ "Prism - syntax highlighting"
