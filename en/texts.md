@@ -21,6 +21,30 @@ The insertion into the chapter text is done either by direct copy of the charact
 
 For exact codes and situations I advice to use Copilot/ChatGPT, which will help you find suitable icons quickly.
 
+### Icons and printing
+
+Icons are automatically removed from the text before printing. If you are not comfortable with this behavior, you can modify it either at the configuration level of the entire help or by using a directive in a specific topic.
+
+If you want to keep the icons in a specific topic, insert this directive after the first chapter heading (it must not be before the heading) or later in the topic text:
+
+```markdown
+# &#128214;Help Viewer overview
+
+<!-- @print-keep-icons -->
+The application is divided into two main areas:
+```
+
+To keep the icons in all topics, set the help configuration option **OverridePrintKeepIcons** to 1.
+
+For a more detailed description of the behavior:
+
+| OverridePrintKeepIcons | print-keep-icons | Result |
+|---|---|---|
+| 0 / not | not | icons removed |
+| 1 | not | icons retained |
+| 0 | is | icons retained |
+| 1 | is | icons removed |
+
 ## Lists
 
 For correct bullet list item there is required to have a space between marking (number for numbered list, - for bullet list):

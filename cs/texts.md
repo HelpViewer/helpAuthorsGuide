@@ -21,6 +21,30 @@ Vložení do textu kapitoly provedete buďto přímou kopií znaku, nebo vložen
 
 Pro konkrétní kódy a situace doporučuji použití Copilot/ChatGPT, které Vám pomohou rychle najít vhodné příklady.
 
+### Ikonky a tisk
+
+Před přípravou tisku jsou ikonky automaticky odebírány z textu. Pokud Vám toto chování nevyhovuje, můžete jej upravit buď na úrovni konfigurace celé nápovědy, nebo pomocí direktivy v konkrétním tématu.
+
+Chcete-li ikonky zachovat v konkrétním tématu, vložte tuto direktivu po prvním nadpisu kapitoly (nesmí být před nadpisem) nebo později v textu tématu:
+
+```markdown
+# &#128214;Help Viewer přehled
+
+<!-- @print-keep-icons -->
+Aplikace je rozdělena na dvě hlavní oblasti:
+```
+
+Chcete-li ikonky zachovat ve všech tématech, nastavte konfigurační volbu nápovědy **OverridePrintKeepIcons** na 1.
+
+Podrobnější popis chování:
+
+| OverridePrintKeepIcons | print-keep-icons | Výsledek |
+|---|---|---|
+| 0 / není | není | ikonky odebrány |
+| 1 | není | ikonky zachovány |
+| 0 | je | ikonky zachovány |
+| 1 | je | ikonky odebrány |
+
 ## Seznamy
 
 Odrážkové seznamy nezbytně musí mít mezeru za označením (číslo u číslovaného, - u nečíslovaného seznamu):

@@ -30,6 +30,12 @@ key|value
 | OverrideColorTheme | Overwrites user selection of color scheme and saves it to user's configuration |
 | OverrideSidebarVisible | Overwrites user selection if left panel will be visible and saves it to user's configuration |
 
+### Override default UI behavior
+
+| Key name | Meaning |
+|---|---|
+| OverridePrintKeepIcons | Overrides the default behavior of removing HTML icons when printing. Default: 0. 1 = print text including icons. The \<!-- @print-keep-icons --\> directive in the topic text reverses the logic of this configuration for a particular topic. |
+
 ### Managed by publishing process
 | Key name | Meaning |
 |---|---|

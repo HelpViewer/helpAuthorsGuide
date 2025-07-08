@@ -30,6 +30,12 @@ klíč|hodnota
 | OverrideColorTheme | Přepíše uživatelské schéma barev na konkrétní jiné a uloží hodnotu do konfigurace uživatele |
 | OverrideSidebarVisible | Přepíše uživatelskou volbu, zda bude levý panel viditelný a uloží hodnotu do konfigurace uživatele |
 
+### Přepsání výchozího chování UI
+
+| Jméno klíče | Popis a význam |
+|---|---|
+| OverridePrintKeepIcons | Přepíše výchozí chování odebírání HTML ikonek při tisku. Výchozí: 0. 1 = tisk textu včetně ikonek. Direktiva \<\!-- @print-keep-icons --\> v textu tématu logiku této konfigurace pro konkrétní téma obrací do opačného stavu. |
+
 ### Klíče, které řídí proces vydávání
 | Jméno klíče | Popis a význam |
 |---|---|
