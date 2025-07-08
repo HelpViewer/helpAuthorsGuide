@@ -1,5 +1,12 @@
 # Changelog
 
+## 20250708
+- EN: helpviewer, heading : typos fixed
+- EN, CZ : features list updated
+- EN,CZ : Code listing syntax highlighting fix
+- EN,CZ : Code listing : PrismJS library mentioned and link added
+- EN, CZ : Changed/Defined logic for HTML Unicode icons printing behavior explanation added
+
 ## 20250705
 - EN: keywords-files.lst : translated position description section
 
