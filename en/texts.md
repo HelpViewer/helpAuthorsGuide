@@ -44,8 +44,8 @@ For a more detailed description of the behavior:
 |---|---|---|
 | 0 / not | not | icons removed |
 | 1 | not | icons retained |
-| 0 | is | icons retained |
-| 1 | is | icons removed |
+| 0 | present | icons retained |
+| 1 | present | icons removed |
 
 ## Lists
 
