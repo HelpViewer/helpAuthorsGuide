@@ -34,6 +34,8 @@ Chcete-li ikonky zachovat v konkrétním tématu, vložte tuto direktivu po prvn
 Aplikace je rozdělena na dvě hlavní oblasti:
 ```
 
+⚠️ Upozornění: Direktivu napište s přesnou mezerou, jak je ukázáno, a nekombinujte ji s jinými komentáři nebo bloky. Díky tomu bude zpracování správné a bez problémů.
+
 Chcete-li ikonky zachovat ve všech tématech, nastavte konfigurační volbu nápovědy **OverridePrintKeepIcons** na 1.
 
 Podrobnější popis chování:

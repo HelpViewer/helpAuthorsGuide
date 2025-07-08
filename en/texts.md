@@ -34,6 +34,8 @@ If you want to keep the icons in a specific topic, insert this directive after t
 The application is divided into two main areas:
 ```
 
+⚠️ Note: Type the directive with the exact spacing as shown and do not combine it with other comments or blocks. This will ensure correct processing and no problems.
+
 To keep the icons in all topics, set the help configuration option **OverridePrintKeepIcons** to 1.
 
 For a more detailed description of the behavior:
