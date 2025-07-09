@@ -12,7 +12,7 @@ In next subchapters of this chapter there are more information which you should 
 
 Inside chapter text you can insert unicode letters/characters also. Some of them stands for icons which you can use without need to install any other external library.
 
-The insertion into the chapter text is done either by direct copy of the character or by inserting two other shapes (HTML character entities):
+The insertion into the chapter text is done either by direct copy of the character or by inserting two other formats (HTML character entities):
 ```markdown
 💡
 &amp;#128161;
