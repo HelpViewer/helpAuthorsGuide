@@ -2,13 +2,31 @@
 
 HelpViewer předpokládá, že text bude ve znakové sadě **UTF-8 no BOM (65001)**.
 
-V rámci textu kapitol můžete použít veškerou standardní syntaxi **[md][MDSyntax]** dokumentu jako například **#** značku s nadpisy až do úrovně 6 (tedy například **###### Nadpis**). Tyto nadpisy pak **HelpViewer** použije, aby automaticky sestavil seznam částí (🔖) a nabídl jej uživateli k procházení. Pokud kromě **h1** nebude v kapitole žádný další nadpis, seznam se uživateli nenabídne.
+V rámci textu kapitol můžete použít veškerou standardní syntaxi **[md][MDSyntax]** dokumentu jako například **#** značku s nadpisy až do úrovně 6 (tedy například **###### Nadpis**).
 
 Také můžete md kód v případě potřeby prokládat s html nebo javascript kódem.
 
 V dalších podkapitolách této sekce jsou uvedeny další informace, které byste měli znát a také funkce HelpViewer, které můžete použít.
 
-## Ikonky
+## 🔖 Seznam částí
+
+**HelpViewer** automaticky sestaví z nadpisů (h1-6, # ... ######), seznam částí (🔖) a nabídne jej uživateli k rychlému a pohodlnému procházení textem kapitoly. 
+
+- Pokud dokument obsahuje pouze hlavní nadpis (h1 / #), žádný seznam se nezobrazí.
+- Přehled je dostupný, pokud se v dokumentu nachází alespoň jeden další nadpis.
+
+Záložky jsou automaticky pojmenovávány v tomto formátu: #h-(úroveň)-(pořadí).
+  - úroveň je číslo od 1 do 6 podle úrovně nadpisu (h1 = 1, ..., h6 = 6)
+  - pořadí je index od 0, který určuje pořadí výskytu nadpisů dané úrovně v rámci celé kapitoly
+
+Určování pořadí:
+- Počítadlo je oddělené pro každou úroveň (h1 má svůj vlastní čítač, h2 jiný atd.)
+- Pořadí se přiděluje při načítání dokumentu zleva doprava, shora dolů.
+- ⚠ Pokud do dokumentu vložíte nový nadpis (např. mezi dvě stávající), automaticky převezme index nadpisu, který byl na jeho místě. Nadpisy následující za ním se o jedno pořadí posunou.
+
+Tímto je zajištěno, že záložky zůstanou konzistentní a předvídatelné, i když se struktura dokumentu v budoucnu změní.
+
+## 🖼️ Ikonky
 
 V rámci textu můžete vkládat také unicode znaky. Některé z nich představují ikonky, které je možno použít bez nutnosti další externí knihovny.
 
