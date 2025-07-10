@@ -36,6 +36,8 @@ Toto řešení používá také [JSZip knihovnu][JSZIP].
 ```
 Toto řešení používá také [JSZip knihovnu][JSZIP].
 
+<!-- @print-break -->
+
 ## Jiný soubor nápovědy
 
 ### Výchozí stránka

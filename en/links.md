@@ -36,6 +36,8 @@ This solution also uses the [JSZip library][JSZIP].
 ```
 This solution also uses the [JSZip library][JSZIP].
 
+<!-- @print-break -->
+
 ## Another help file
 
 ### Default page
