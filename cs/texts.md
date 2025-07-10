@@ -65,6 +65,18 @@ Podrobnější popis chování:
 | 0 | je | ikonky zachovány |
 | 1 | je | ikonky odebrány |
 
+## 📄 Zalomení stránky při tisku
+
+V místě, kde potřebujete ručně zalomit stránku, vložte následující text do svého .md nebo .html souboru:
+
+```markdown
+<!-- @print-break -->
+```
+
+⚠️ Upozornění: Text napište s přesnou mezerou, jak je zde ukázáno.
+
+Při přípravě tiskové verze bude dokument na tomto místě automaticky rozdělen a následující obsah se vytiskne na nové stránce.
+
 ## Seznamy
 
 Odrážkové seznamy nezbytně musí mít mezeru za označením (číslo u číslovaného, - u nečíslovaného seznamu):

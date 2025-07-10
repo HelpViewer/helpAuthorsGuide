@@ -65,6 +65,18 @@ For a more detailed description of the behavior:
 | 0 | present | icons retained |
 | 1 | present | icons removed |
 
+## 📄 Page break for printing
+
+To manually insert a page break, add the following line to your .md or .html file:
+
+```markdown
+<!-- @print-break -->
+```
+
+⚠️ Note: Make sure to type the text exactly as shown, including spaces.
+
+When generating the print version, the document will automatically break at this point, and the following content will start on a new page.
+
 ## Lists
 
 For correct bullet list item there is required to have a space between marking (number for numbered list, - for bullet list):
