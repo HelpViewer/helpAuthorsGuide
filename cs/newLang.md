@@ -11,7 +11,6 @@
     - 📇 [keywords.lst][Dkeywords.lst] - seznam klíčových slov
     - 📖 [tree.lst][Dtree.lst] - strom témat
 5. Přeložte texty kapitol.
-6. Jména záložek (kotev) budou změněna s přeložením kapitol (ujistěte se o platnosti odkazů).
 
 [Localiz]: https://github.com/HelpViewer/Translations "Lokalizace HelpViewer"
 [Dfiles.lst]: mdata/files.lst.md "files.lst"

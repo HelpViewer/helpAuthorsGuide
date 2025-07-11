@@ -11,7 +11,6 @@
     - 📇 [keywords.lst][Dkeywords.lst] - list of keywords
     - 📖 [tree.lst][Dtree.lst] - topic tree
 5. Translate the texts of the chapters.
-6. The names of the bookmarks (anchors) will be changed as the chapters are translated (make sure the links are valid).
 
 [Localiz]: https://github.com/HelpViewer/Translations "HelpViewer localization"
 [Dfiles.lst]: mdata/files.lst.md "files.lst"
