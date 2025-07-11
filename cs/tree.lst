@@ -17,6 +17,7 @@ Nová kapitola|Nová kapitola||newTopic.md
  🧾 Kódový výpis|Kódový výpis v textech||code.md
  📊 Diagram|Diagram||diagram.md
  🧩 JavaScript|Vložený JavaScript blok||innerJS.md
+ 🖨️ Tisk|Tisk||print.md
 Indexace|Indexace kapitoly a popis metadat||indexing.md
  📖 Strom témat|Strom témat (tree.lst)||mdata/tree.lst.md
  📑 Seznam souborů|Seznam souborů (files.lst)||mdata/files.lst.md

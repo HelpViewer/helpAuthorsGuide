@@ -17,6 +17,7 @@ New chapter|New chapter||newTopic.md
  🧾 Code listing|Code listing in texts||code.md
  📊 Diagram|Diagram||diagram.md
  🧩 JavaScript|JavaScript embedded block||innerJS.md
+ 🖨️ Print|Print||print.md
 Indexation|Chapter indexation and metadata description||indexing.md
  📖 TOC|TOC (tree.lst)||mdata/tree.lst.md
  📑 File list|File list (files.lst)||mdata/files.lst.md
