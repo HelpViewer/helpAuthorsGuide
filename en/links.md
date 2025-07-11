@@ -2,7 +2,7 @@
 
 - Two underscores (**__**) represents the selected language, which the system automatically adds from the user settings.
 - Refer to documents in relative ways (using ..). 
-- Use **forward - /** for slashes in travel.
+- Use **forward - /** for slashes in path strings.
 - For more complex links (going to another help), use **?** and enter only parameters to make the system transfer easier in the future
 
 See below for common ways to define a link.
