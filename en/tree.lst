@@ -11,6 +11,7 @@ Help configuration|Help configuration||helpCfg.md
 New chapter|New chapter||newTopic.md
  📝 Chapter text|Chapter text||texts.md
  📑 Heading detection|Heading detection||heading.md
+ 🔖 Sections List|Sections List||sectionList.md
  🔗 Links|Links in texts||links.md
  🖼️ Images|Images in texts||images.md
  🧾 Code listing|Code listing in texts||code.md
