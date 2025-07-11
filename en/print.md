@@ -19,7 +19,7 @@ To keep the icons in all topics, set the help configuration option **OverridePri
 
 For a more detailed description of the behavior:
 
-| OverridePrintKeepIcons | print-keep-icons | Result |
+| Override Print Keep Icons | print-keep-icons | Result |
 |---|---|---|
 | 0 / not | not | icons removed |
 | 1 | not | icons retained |

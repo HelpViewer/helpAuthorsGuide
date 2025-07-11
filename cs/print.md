@@ -19,7 +19,7 @@ Chcete-li ikonky zachovat ve všech tématech, nastavte konfigurační volbu ná
 
 Podrobnější popis chování:
 
-| OverridePrintKeepIcons | print-keep-icons | Výsledek |
+| Override Print Keep Icons | print-keep-icons | Výsledek |
 |---|---|---|
 | 0 / není | není | ikonky odebrány |
 | 1 | není | ikonky zachovány |
