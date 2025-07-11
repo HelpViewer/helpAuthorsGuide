@@ -2,7 +2,7 @@
 
 HelpViewer predicts all texts will be coded in **UTF-8 no BOM (65001)** code page.
 
-In chapter text you can use all the standard syntax of **[md][MDSyntax]** document as e.g. **#** tag for heading even to lovel 6 (e.g. **###### Heading**).
+In chapter text you can use all the standard syntax of **[md][MDSyntax]** document as e.g. **#** tag for heading even to lovel 6 (e.g. **###### Heading**). These headings are used by **HelpViewer** to build [sub chapters structure][SecList] (🔖) automatically.
 
 You can also intersperse the md code with html or javascript code if needed.
 
@@ -128,3 +128,4 @@ There is extended description of given point.
 </details>
 
 [MDSyntax]: https://www.markdownguide.org/basic-syntax/ "MD syntax"
+[SecList]: sectionList.md "Sections List"

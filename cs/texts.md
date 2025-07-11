@@ -2,7 +2,7 @@
 
 HelpViewer předpokládá, že text bude ve znakové sadě **UTF-8 no BOM (65001)**.
 
-V rámci textu kapitol můžete použít veškerou standardní syntaxi **[md][MDSyntax]** dokumentu jako například **#** značku s nadpisy až do úrovně 6 (tedy například **###### Nadpis**).
+V rámci textu kapitol můžete použít veškerou standardní syntaxi **[md][MDSyntax]** dokumentu jako například **#** značku s nadpisy až do úrovně 6 (tedy například **###### Nadpis**). Tyto nadpisy pak **HelpViewer** použije, aby automaticky sestavil [seznam částí][SecList] (🔖).
 
 Také můžete md kód v případě potřeby prokládat s html nebo javascript kódem.
 
@@ -128,3 +128,4 @@ Zde je zobrazen další popis dané problematiky.
 </details>
 
 [MDSyntax]: https://www.markdownguide.org/basic-syntax/ "MD syntaxe"
+[SecList]: sectionList.md "Seznam částí"
