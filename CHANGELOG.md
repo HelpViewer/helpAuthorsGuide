@@ -1,5 +1,15 @@
 # Changelog
 
+## 20250711
+- EN, CZ : Section list description updated to state after last changes (no slugify anymore, strict counters approach)
+- EN, CZ : links : used page-break directive for better print (hide problem in Prism library drawing on edge of pages)
+- EN, CZ : texts : sectionList extracted as a separate section
+- EN, CZ : texts : print extracted as a separate section, link added
+- EN, CZ : texts : Page break for print mentioned
+- EN, CZ : Project policies and documents link in tree
+- EN, CZ : tree.lst : fix in structure row
+- EN : fixes in word meaning - texts
+
 ## 20250708
 - EN: helpviewer, heading : typos fixed
 - EN, CZ : features list updated
