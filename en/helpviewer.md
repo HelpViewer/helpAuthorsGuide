@@ -17,6 +17,7 @@ Organization [HelpViewer][HelpViewer] contains 2 basic types of repositories:
 | [helpviewer.github.io][RWebHello] | GitHub Pages project for web presentation. [CI deployment script][RWebHelloDeploy] will do page content update with defined version number to deploy. |
 | [fulltextSearchDBBuilder][FTSIndexBuilder] | Full text index generator logic. This Bash script is used by CI scripts which handles publishing of help files in case there is required to create full text index. |
 | [helpTemplate][RhelpTemplate] | Template for help file project. It is intended for help authors as a basic blank project. |
+| [prism][RPrism] | PrismJS library mixed-customized release. Repository is inserted to **HelpViewer** as a Git submodule. |
 
 ## Help files repositories
 
@@ -48,3 +49,4 @@ Repository names are starting with **help\***. Due to the naming of the project,
 [RhelpUser]: https://github.com/HelpViewer/helpUser
 [RhelpAuthorsGuide]: https://github.com/HelpViewer/helpAuthorsGuide
 [R.github]: https://github.com/HelpViewer/.github "Repository with basic information"
+[RPrism]: https://github.com/HelpViewer/prism
