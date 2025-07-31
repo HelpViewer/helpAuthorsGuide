@@ -22,7 +22,7 @@
 - 🔖 Bookmarks for chapters supported
 - 🎨 Four native color schemes: color (default), greyscale, white on black, and black on white
 - ♿ Accessibility rules WCAG 2.1 implemented (accessibilitychecker.org: 89 %, Lighthouse: 96%, [Web Aim][waverep])
-- 📄 Print friendly version (prefers greyscale)
+- 🖨️ Print friendly version (prefers greyscale)
 - 💬 Tooltips in English, Czech (other languages planned)
 
 [waverep]: https://wave.webaim.org/report#/https://helpviewer.github.io "WAVE WebAim report"

@@ -22,7 +22,7 @@
 - 🔖 Podpora záložek pro podsekce v kapitole
 - 🎨 4 vestavěné barevné režimy: barva (výchozí), stupně šedi, bílá a černá, černá a bílá
 - ♿ Zohlednění přístupnosti – WCAG 2.1 (accessibilitychecker.org: 89 %, Lighthouse: 96%, [Web Aim][waverep])
-- 📄 Verze vhodná pro tisk (upřednostňuje stupně šedi)
+- 🖨️ Verze vhodná pro tisk (upřednostňuje stupně šedi)
 - 💬 Bublinová nápověda prostředí v češtině a angličtině (plánují se další jazyky)
 
 [waverep]: https://wave.webaim.org/report#/https://helpviewer.github.io "WAVE WebAim protokol"
