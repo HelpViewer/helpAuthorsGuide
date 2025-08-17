@@ -8,7 +8,8 @@
 - 🌐 Multi language version help supported
 - 🕘 Easily switch help file version (Internet connection required)
 - 🤖 Automated CI/CD release pipeline (package: 1 ZIP file for each one language version)
-- 🧩 Open-source and extendable code
+- 🛠️ Open-source and extendable code
+- 🧩 Robust, easy-to-use plugin system and extensible architecture
 - 🔧 With GitHub infrastructure the help creation process is clearly structured and many of steps are done automatically with minimal effort or manual action
 
 ## &#9881;&#65039;Features out of the box

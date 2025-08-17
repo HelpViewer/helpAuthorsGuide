@@ -8,7 +8,8 @@
 - 🌐 Podpora více jazykových verzí nápovědy
 - 🕘 Přepínání mezi verzemi nápovědy (je potřeba být připojen k Internetu)
 - 🤖 Automatizovaná CI/CD příkazová dávka pro rychlé a bezpečné nasazování (výsledkem je 1 zip archiv na jeden jazyk nápovědy)
-- 🧩 Kód je snadno rozšiřitelný a open source
+- 🛠️ Kód je snadno rozšiřitelný a open source
+- 🧩 Snadno použitelný systém pluginů a rozšiřitelná architektura
 - 🔧 Ve spolupráci s infrastrukturou GitHub je proces tvorby nápovědy přehledně strukturovaný a řada kroků probíhá automaticky s minimální potřebou ručního zásahu
 
 ## &#9881;&#65039;Vestavěné funkce
