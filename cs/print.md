@@ -33,7 +33,7 @@ Uzavíratelné sekce jsou před tiskem automaticky rozbaleny, aby se zajistil ti
 V místě, kde potřebujete ručně zalomit stránku, vložte následující text do svého .md nebo .html souboru:
 
 ```markdown
-&lt;!-- @print-break --&gt;
+<!-- @print-break -->
 ```
 
 ⚠️ Upozornění: Text napište s přesnou mezerou, jak je zde ukázáno.
