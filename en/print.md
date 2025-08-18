@@ -35,7 +35,7 @@ All collapsible sections are automatically opened before printing to ensure that
 To manually insert a page break, add the following line to your .md or .html file:
 
 ```markdown
-<!-- @print-break -->
+&lt;!-- @print-break --&gt;
 ```
 
 ⚠️ Note: Make sure to type the text exactly as shown, including spaces.
