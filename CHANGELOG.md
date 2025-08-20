@@ -1,5 +1,12 @@
 # Changelog
 
+## 20250820
+- EN, CZ : newLang : point about anchors updated to current state (not valid anymore)
+- EN, CZ : helpviewer : prism repository mentioned
+- EN,CZ : Print friendly version action icon updated
+- EN,CZ : files.lst : missing 2 files added to provide correct heading
+- EN,CZ : updated features list to current state
+
 ## 20250711
 - EN, CZ : Section list description updated to state after last changes (no slugify anymore, strict counters approach)
 - EN, CZ : links : used page-break directive for better print (hide problem in Prism library drawing on edge of pages)
