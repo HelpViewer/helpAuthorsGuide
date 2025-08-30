@@ -8,7 +8,7 @@
   ```
   git clone https://github.com/{USER or ORGANIZATION}/{REPOSITORY-NAME}.git
   ```
-1. Files: **LICENSE** a **README.md** you can update according to your needs
+6. Files: **LICENSE** a **README.md** you can update according to your needs
 
 [template]: https://github.com/HelpViewer/helpTemplate "Help file project template"
 [template-CI]: https://github.com/HelpViewer/helpTemplate/blob/main/.github/workflows/publish.yml "CI script"
