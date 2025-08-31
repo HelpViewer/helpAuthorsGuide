@@ -17,7 +17,7 @@ Organizace [HelpViewer][HelpViewer] obsahuje 2 základní typy repozitářů:
 | [helpviewer.github.io][RWebHello] | GitHub Pages projekt webové prezentace. [Nasazovací skript][RWebHelloDeploy] provede aktualizaci stránky s použitím nastavené verze nasazení. |
 | [fulltextSearchDBBuilder][FTSIndexBuilder] | Generátor fulltext indexu. Tento Bash skript je používán nasazovacími skripty nápověd při přípravě fulltext indexů. |
 | [helpTemplate][RhelpTemplate] | Šablona projektu souboru nápovědy. Je určená pro autory nápověd jako základní prázdný projekt. |
-| [prism][RPrism] | PrismJS sestavená pomocí download průvodce projektu.library mixed-customized release. Repozitář je vložený do **HelpViewer** jako submodul. |
+| [prism][RPrism] | PrismJS sestavená pomocí download průvodce projektu. Repozitář je vložený do **HelpViewer** jako submodul. |
 
 ## Seznam repozitářů nápověd
 
