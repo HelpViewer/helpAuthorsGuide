@@ -10,5 +10,22 @@
   ```
 6. Files: **LICENSE** a **README.md** you can update according to your needs
 
+## Process
+
+```mermaid
+graph TD; 
+  subgraph outs["New GitHub release"]
+  direction TB
+  H1["Help-.zip"]
+  H2["Help-en.zip"]
+  H3["Help-[lang].zip"]
+  end
+  T["HelpViewer/helpTemplate"] --> YP["Your help project"]
+  YP --> YPC["Your changes in repository + Change in <b>CHANGELOG.md</b>"]
+  YPC --> CO["Commit: message contains [pub]"]
+  CO --> CI["⚙️ CI/CD pipeline run"]
+  CI --> outs
+```
+
 [template]: https://github.com/HelpViewer/helpTemplate "Help file project template"
 [template-CI]: https://github.com/HelpViewer/helpTemplate/blob/main/.github/workflows/publish.yml "CI script"

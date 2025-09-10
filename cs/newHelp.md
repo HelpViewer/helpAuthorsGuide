@@ -10,5 +10,22 @@
   ```
 6. Soubory: **LICENSE** a **README.md** upravte podle své potřeby
 
+## Schéma procesu
+
+```mermaid
+graph TD; 
+  subgraph outs["Nový GitHub release"]
+  direction TB
+  H1["Help-.zip"]
+  H2["Help-cs.zip"]
+  H3["Help-[jazyk].zip"]
+  end
+  T["HelpViewer/helpTemplate"] --> YP["Váš repozitář - projekt nápovědy"]
+  YP --> YPC["Vaše změny v repozitáři + popis změn v <b>CHANGELOG.md</b>"]
+  YPC --> CO["Commit: zpráva obsahující [pub]"]
+  CO --> CI["⚙️ Běh CI/CD skriptu"]
+  CI --> outs
+```
+
 [template]: https://github.com/HelpViewer/helpTemplate "Šablona nápovědy"
 [template-CI]: https://github.com/HelpViewer/helpTemplate/blob/main/.github/workflows/publish.yml "CI skript"
