@@ -27,10 +27,4 @@ Vydání verze nápovědy|Vydání verze nápovědy||publish.md
  🔑 Token|GitHub token||token.md
 🌐 Nový jazyk|Nový jazyk||newLang.md
 🤝 Integrace s aplikacemi|Integrace s aplikacemi||integration.md
-Projekt HelpViewer|Projekt HelpViewer||helpviewer.md
- 🌐 Nový jazyk|Nový jazyk||newLangViewer.md
- 📜 Projektové dokumenty|Projektové dokumenty a politiky||?d=https://raw.githubusercontent.com/HelpViewer/.github/master/
- 🚀 Stáhnout poslední verzi|Balíček pro offline použití||=latestApp
- 🔗 GitHub|GitHub repozitář||https://github.com/HelpViewer/HelpViewer
- 🐳 Kontejnerové obrazy|Kontejnerové obrazy||https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer
- 💬 Uživatelská skupina|Uživatelská skupina Discord||https://discord.gg/J2SjcmqHSZ
+💬 Uživatelská skupina|Uživatelská skupina Discord||https://discord.gg/J2SjcmqHSZ

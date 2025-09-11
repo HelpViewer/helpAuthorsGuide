@@ -1,6 +1,6 @@
 # 💡 General recommendation and information sources
 
-In GitHub organization **[HelpVewer][HV]** you will find repositories starting with **help\***. With exception of **helpTemplate** and **HelpViewer** all of them are examples of help files. You can take any **Release** of these and its all attachments named like this mask **Help-*.zip**. Archives are passwordless so its content is accessible to browsing.
+In GitHub organization **[HelpViewer][HV]** you will find repositories starting with **help\***. With exception of **helpTemplate** and **HelpViewer** all of them are examples of help files. You can take any **Release** of these and its all attachments named like this mask **Help-*.zip**. Archives are passwordless so its content is accessible to browsing.
 
 During your help file creation you can browse it in offline even if it has not been released. This way you can verify future results and behavior. You can do it this way - start **HelpViewer** in web browser with browsing local file content and you will give it relative dir path to your new help file:
 ```

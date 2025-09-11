@@ -24,11 +24,11 @@ publish.md|Publishing steps
 customUI.md|Viewer Custom UI
 token.md|GitHub Token
 integration.md|Integration with application
-helpviewer.md|HelpViewer Project
+-|-
 =latestApp|Download latest version
 https://github.com/HelpViewer/HelpViewer|GitHub repository
 https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer|Container images
 https://discord.gg/J2SjcmqHSZ|User group
-newLangViewer.md|New language for Viewer
+-|-
 sectionList.md|Sections list
 print.md|Print
