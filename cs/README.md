@@ -5,5 +5,3 @@ Cílem dokumentace je popsat:
 - Vnitřní formát indexací a metadat,
 - Významná specifika HelpViewer a jeho procesů,
 - Přístupy pro integraci mezi aplikacemi a nápovědou
-- Přehled struktury GitHub organizace HelpViewer a popis verzování
-- Popis možností rozšíření samotného projektu
