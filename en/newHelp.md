@@ -24,7 +24,7 @@ graph TD;
   YP --> YPC["Your changes in repository + Change in <b>CHANGELOG.md</b>"]
   YPC --> CO["Commit: message contains [pub]"]
   CO --> CI["⚙️ CI/CD pipeline run"]
-  CI --> outs
+  CI -->|\+ 🔑 PAT Token| outs
 ```
 
 [template]: https://github.com/HelpViewer/helpTemplate "Help file project template"

@@ -24,7 +24,7 @@ graph TD;
   YP --> YPC["Vaše změny v repozitáři + popis změn v <b>CHANGELOG.md</b>"]
   YPC --> CO["Commit: zpráva obsahující [pub]"]
   CO --> CI["⚙️ Běh CI/CD skriptu"]
-  CI --> outs
+  CI -->|\+ 🔑 PAT Token| outs
 ```
 
 [template]: https://github.com/HelpViewer/helpTemplate "Šablona nápovědy"
