@@ -20,7 +20,8 @@ graph TD;
   H2["Help-en.zip"]
   H3["Help-[lang].zip"]
   end
-  T["HelpViewer/helpTemplate"] --> YP["Your help project"]
+  T["HelpViewer/helpTemplate"] -->|Use this template,
+  Create a new repository| YP["Your help project"]
   YP --> YPC["Your changes in repository + Change in <b>CHANGELOG.md</b>"]
   YPC --> CO["Commit: message contains [pub]"]
   CO --> CI["⚙️ CI/CD pipeline run"]

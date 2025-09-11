@@ -20,7 +20,8 @@ graph TD;
   H2["Help-cs.zip"]
   H3["Help-[jazyk].zip"]
   end
-  T["HelpViewer/helpTemplate"] --> YP["Váš repozitář - projekt nápovědy"]
+  T["HelpViewer/helpTemplate"] -->|Use this template,
+  Create a new repository| YP["Váš repozitář - projekt nápovědy"]
   YP --> YPC["Vaše změny v repozitáři + popis změn v <b>CHANGELOG.md</b>"]
   YPC --> CO["Commit: zpráva obsahující [pub]"]
   CO --> CI["⚙️ Běh CI/CD skriptu"]
