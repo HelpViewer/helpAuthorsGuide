@@ -21,7 +21,7 @@
 - 🔎 Slovník pro fulltextové vyhledávání obsahu kapitol
 - ⏭ Integrovaná tlačítka pro základní navigaci v nápovědě
 - 🔖 Podpora záložek pro podsekce v kapitole
-- 🎨 4 vestavěné barevné režimy: barva (výchozí), stupně šedi, bílá a černá, černá a bílá
+- 🎨 5 vestavěných barevných režimů: barva (výchozí), stupně šedi, bílá a černá, černá a bílá, sepie
 - ♿ Zohlednění přístupnosti – WCAG 2.1 (accessibilitychecker.org: 89 %, Lighthouse: 96%, [Web Aim][waverep])
 - 🖨️ Verze vhodná pro tisk (upřednostňuje stupně šedi)
 - 💬 Bublinová nápověda prostředí v češtině a angličtině (plánují se další jazyky)

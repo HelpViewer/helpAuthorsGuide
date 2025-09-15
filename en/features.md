@@ -21,7 +21,7 @@
 - 🔎 Full-text search dictionary for chapter contents
 - ⏭ Integrated topic navigation buttons
 - 🔖 Bookmarks for chapters supported
-- 🎨 Four native color schemes: color (default), greyscale, white on black, and black on white
+- 🎨 Five native color schemes: color (default), greyscale, white on black, and black on white, sepia
 - ♿ Accessibility rules WCAG 2.1 implemented (accessibilitychecker.org: 89 %, Lighthouse: 96%, [Web Aim][waverep])
 - 🖨️ Print friendly version (prefers greyscale)
 - 💬 Tooltips in English, Czech (other languages planned)
