@@ -1,5 +1,9 @@
 # Changelog
 
+## 20250915
+- EN,CZ : newHelp.md : overview process diagram added
+- HelpViewer repos overview and new language for viewer chapters excluded (moved to developer guide)
+
 ## 20250820
 - EN, CZ : newLang : point about anchors updated to current state (not valid anymore)
 - EN, CZ : helpviewer : prism repository mentioned
