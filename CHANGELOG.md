@@ -1,5 +1,8 @@
 # Changelog
 
+## 20250921
+- EN,CZ : Sepia color theme mentioned
+
 ## 20250915
 - EN,CZ : newHelp.md : overview process diagram added
 - HelpViewer repos overview and new language for viewer chapters excluded (moved to developer guide)
