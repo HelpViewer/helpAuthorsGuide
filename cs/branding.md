@@ -8,9 +8,9 @@ Aby se změny projevily pro uživatele, je nutné nápovědu vždy znovu přelo�
 
 ## Snadné úpravy
 
-### 🌅 Úvodní obrazovka
+### 🌅 První obrazovka
 
-- Úvodní obrazovku představuje **README.md** soubor umístěný v kořeni jazykové verze nápovědy.
+- První obrazovku představuje **README.md** soubor umístěný v kořeni jazykové verze nápovědy.
 - Tento soubor se otevírá jako první, když čtenář spustí nápovědu.
 
 ### 🌐 Vlastní ikona aplikace v záhlaví stránky (favicon)
@@ -64,6 +64,40 @@ Pokud je to možné, používejte přednostně CSS proměnné. Usnadňuje to bud
 
 Soubor **muj-kurzor.png** musí být v relativním umístění k **index.html** a nemůže být součástí nápověd nebo dat (nemůže být v ZIP archivu).
 
+#### ✨ Úvodní obrazovka
+
+- Obrazovka vyplní celou viditelnou plochu a slouží k rychlé prezentaci - typicky produktová ikona, název a krátký slogan.- Do repozitáře nápovědy vložte pro každý jazyk soubor:
+**helpProjekt/(jazyk)/_splash.md** :
+
+```markdown
+# _![HelpViewer](media/HV.png)
+
+# HelpViewer
+
+## Vaše nápověda - Přehledně - Rychle - Bez kompilace
+```
+
+(podtržítko v prvním nadpisu znamená definici neodebírej pro plugin pTR1stHeadingToTopPanel)
+
+- Pokud je v nasazeném balíčku aplikace zahrnut 🖥️ puiSplash (Úvodní obrazovka), při prvním otevření 🌅 první obrazovky se jako první informace uživateli zobrazí právě tato obrazovka.
+
+- Pro úpravu jejího vzhledu je potřeba definovat **helpProjekt/_base/plus.css** a v něm například toto:
+
+```css
+.splash {
+  gap: 3rem;
+  font-size: calc(1em * 1.5);
+  background: radial-gradient(circle, var(--c-contentPaneColor) 10%, var(--c-backgroundHead) 100%);
+}
+
+.splash h2 {
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: manual;
+}
+```
+
 ### 🧩 Pokročilé nástroje, programování
 
 - Některé nástroje v dalších kapitolách mohou být omezené nebo nefunkční v závislosti na způsobu nasazení či konfiguraci ve vašem prostředí. Pro informace o stažení a instalaci balíčku se obraťte na svého systémového administrátora.
@@ -77,7 +111,7 @@ Soubor **muj-kurzor.png** musí být v relativním umístění k **index.html** 
 
 ### 💧 Vodoznak
 
-- Funkcionalitu zajišťuje plugin 🖥️ puiWatermark, který je nutno doplnit konfigurací.
+- Funkcionalitu zajišťuje plugin 🖥️ puiWatermark (Vodoznak na panelu s textem kapitoly), který je nutno doplnit konfigurací.
 
 ### 🖼️ Vlastní ikony pro tlačítka
 

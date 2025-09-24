@@ -8,9 +8,9 @@ For the changes to be visible to users, you must always recompile the help (rele
 
 ## Easy modifications
 
-### 🌅 Welcome screen
+### 🌅 First screen
 
-- The welcome screen is represented by the **README.md** file located at the root of the language version of the help.
+- The first screen is represented by the **README.md** file located at the root of the language version of the help.
 - This file opens first when the reader launches the help.
 
 ### 🌐 Custom application icon in the page header (favicon)
@@ -64,6 +64,40 @@ If possible, use CSS variables. This makes it easier to change colors, fonts, or
 
 The file **my-cursor.png** must be in a relative location to **index.html** and cannot be part of help files or data (it cannot be in a ZIP archive).
 
+#### ✨ Splash screen
+
+- The splash screen fills the entire visible area and is used for quick presentation - typically a product icon, name, and short slogan. - Place the following file in the help repository for each language:
+**helpProject/(language)/_splash.md** :
+
+```markdown
+# _![HelpViewer](media/HV.png)
+
+# HelpViewer
+
+## Your help - Clear - Fast - No compilation
+```
+
+(the underscore in the first heading means do not remove the definition for the pTR1stHeadingToTopPanel plugin)
+
+- If 🖥️ puiSplash (Start Screen) is included in the deployed application package, this screen will be the first information displayed to the user when they first open 🌅 the first screen.
+
+- To customize its appearance, you need to define **helpProject/_base/plus.css** and include, for example, the following:
+
+```css
+.splash {
+  gap: 3rem;
+  font-size: calc(1em * 1.5);
+  background: radial-gradient(circle, var(--c-contentPaneColor) 10%, var(--c-backgroundHead) 100%);
+}
+
+.splash h2 {
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: manual;
+}
+```
+
 ### 🧩 Advanced tools, programming
 
 - Some tools in the following chapters may be limited or non-functional depending on the deployment or configuration in your environment. For information on downloading and installing the package, contact your system administrator.
@@ -77,7 +111,7 @@ The file **my-cursor.png** must be in a relative location to **index.html** and 
 
 ### 💧 Watermark
 
-- Functionality is provided by the 🖥️ puiWatermark plugin, which must be supplemented with configuration.
+- Functionality is provided by the 🖥️ puiWatermark plugin (Watermark on content pane), which must be supplemented with configuration.
 
 ### 🖼️ Custom icons for buttons
 
