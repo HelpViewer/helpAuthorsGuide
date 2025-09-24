@@ -24,7 +24,7 @@ publish.md|Publishing steps
 customUI.md|Viewer Custom UI
 token.md|GitHub Token
 integration.md|Integration with application
--|-
+branding.md|Branding your help file
 =latestApp|Download latest version
 https://github.com/HelpViewer/HelpViewer|GitHub repository
 https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer|Container images
@@ -32,4 +32,3 @@ https://discord.gg/J2SjcmqHSZ|User group
 -|-
 sectionList.md|Sections list
 print.md|Print
-branding.md|Branding your help file

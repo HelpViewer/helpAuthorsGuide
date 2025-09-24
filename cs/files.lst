@@ -24,7 +24,7 @@ publish.md|Postup vydání
 customUI.md|Úprava UI
 token.md|GitHub Token
 integration.md|Integrace s aplikacemi
--|-
+branding.md|Vizuální identita
 =latestApp|Stáhnout poslední verzi
 https://github.com/HelpViewer/HelpViewer|GitHub repozitář
 https://github.com/HelpViewer/HelpViewer/pkgs/container/helpviewer|Kontejnerové obrazy
@@ -32,4 +32,3 @@ https://discord.gg/J2SjcmqHSZ|Uživatelská skupina
 -|-
 sectionList.md|Seznam částí
 print.md|Tisk
-branding.md|Vizuální identita
