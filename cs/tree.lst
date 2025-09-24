@@ -23,6 +23,7 @@ Indexace|Indexace kapitoly a popis metadat||indexing.md
  📑 Seznam souborů|Seznam souborů (files.lst)||mdata/files.lst.md
  📇 Seznam klíčových slov|Seznam klíčových slov (keywords.lst)||mdata/keywords.lst.md
  📇 Vazba klíčové slovo - soubor|Vazba mezi klíčovými slovy a soubory (keywords-files.lst)||mdata/keywords-files.lst.md
+🏷️ Vizuální identita|Vlastní vizuální identita||branding.md
 Vydání verze nápovědy|Vydání verze nápovědy||publish.md
  🔑 Token|GitHub token||token.md
 🌐 Nový jazyk|Nový jazyk||newLang.md

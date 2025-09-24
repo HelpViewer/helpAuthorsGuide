@@ -23,6 +23,7 @@ Indexation|Chapter indexation and metadata description||indexing.md
  📑 File list|File list (files.lst)||mdata/files.lst.md
  📇 Keywords list|Keywords list (keywords.lst)||mdata/keywords.lst.md
  📇 Keyword - file connection|Keyword - file connection (keywords-files.lst)||mdata/keywords-files.lst.md
+🏷️ Branding|Branding your help file||branding.md
 Publishing of help|Publishing of help||publish.md
  🔑 Token|GitHub PAT token||token.md
 🌐 New language|New language||newLang.md
