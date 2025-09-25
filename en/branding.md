@@ -141,7 +141,7 @@ The following procedure is an example of a possible implementation with minimal 
 activatePlugin('puiHeader', 'Down', STO_HELP);
 ```
 
-2. Define the configuration in **helpProjekt/_base/plugins-config/puiHeader_Down.cfg**:
+2. Define the configuration in **helpProject/_base/plugins-config/puiHeader_Down.cfg**:
 
 ```text
 POSITION|b
