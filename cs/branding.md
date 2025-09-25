@@ -129,9 +129,26 @@ Soubor **muj-kurzor.png** musí být v relativním umístění k **index.html** 
 #### © Copyright, ® registrováno a ™ ochranná známka
 
 - Texty copyrightu, registrovaných vzorů, ochranných známek a výzvy je nutné do aplikace doplnit dle vlastních potřeb.
-- Žádná zvláštní podpora na úrovni programu pro tuto oblast není nyní implementována.
+- Podpora na úrovni programu pro tuto oblast není velká.
 - Zde je nutné programování a ruční změna nebo rozšíření balíčku aplikace.
 - Aplikace je šířena pod otevřenou licencí [MIT][MIT]. Kód můžete měnit a šířit komerčně i nekomerčně, ale musíte zachovat licenci **HelpViewer** a původní copyright ve vlastních balíčcích.
+
+Možnou implementací s minimem programování je například následující postup:
+
+1. V **helpProjekt/_base/plus.js** aktivujte plugin:
+
+```js
+activatePlugin('puiHeader', 'Down', STO_HELP);
+```
+
+2. V **helpProjekt/_base/plugins-config/puiHeader_Down.cfg** definujte konfiguraci:
+
+```text
+POSITION|b
+TEXT|(C) ACME, 2025
+```
+
+Tímto způsobem se aktivuje nová instance pluginu **puiHeader** s názvem **Down**. Současně je nutné založit konfigurační soubor přesně s uvedeným názvem, aby se konfigurace automaticky načetla. Výsledkem bude nový panel umístěný pod panelem obsahu kapitoly, který bude zobrazovat text z klíče **TEXT**. Tento text bude uživateli vždy zobrazen na obrazovce a bude například součástí výstupu pro tisk.
 
 [TocIcon]: tocIcon.md "Ikony stromu témat"
 [customUI]: customUI.md "Vlastní UI prohlížeče"

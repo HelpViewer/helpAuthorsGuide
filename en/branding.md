@@ -129,9 +129,26 @@ The file **my-cursor.png** must be in a relative location to **index.html** and 
 #### © Copyright, ® registered, and ™ trademark
 
 - Copyright, registered design, trademark, and disclaimer texts must be added to the application according to your needs.
-- No special program-level support for this area is currently implemented.
+- Program-level support for this area is not significant.
 - Programming and manual modification or extension of the application package is required here.
 - The application is distributed under an open license [MIT][MIT]. You can modify and distribute the code commercially and non-commercially, but you must retain the **HelpViewer** license and the original copyright in your own packages.
+
+The following procedure is an example of a possible implementation with minimal programming:
+
+1. Activate the plugin in **helpProject/_base/plus.js**:
+
+```js
+activatePlugin('puiHeader', 'Down', STO_HELP);
+```
+
+2. Define the configuration in **helpProjekt/_base/plugins-config/puiHeader_Down.cfg**:
+
+```text
+POSITION|b
+TEXT|(C) ACME, 2025
+```
+
+This activates a new instance of the **puiHeader** plugin named **Down**. At the same time, it is necessary to create a configuration file with the exact name specified so that the configuration is loaded automatically. The result will be a new panel located below the chapter content panel, which will display the text from the **TEXT** key. This text will always be displayed to the user on the screen and will be included in the print output, for example.
 
 [TocIcon]: tocIcon.md "TOC icons"
 [customUI]: customUI.md "Viewer Custom UI"
