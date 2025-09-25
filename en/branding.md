@@ -146,9 +146,10 @@ activatePlugin('puiHeader', 'Down', STO_HELP);
 ```text
 POSITION|b
 TEXT|(C) ACME, 2025
+ARIAHEADER|contentinfo
 ```
 
-This activates a new instance of the **puiHeader** plugin named **Down**. At the same time, it is necessary to create a configuration file with the exact name specified so that the configuration is loaded automatically. The result will be a new panel located below the chapter content panel, which will display the text from the **TEXT** key. This text will always be displayed to the user on the screen and will be included in the print output, for example.
+This activates a new instance of the **puiHeader** plugin named **Down**. At the same time, it is necessary to create a configuration file with the exact name specified so that the configuration is loaded automatically. The result will be a new panel located below the chapter content panel, which will display the text from the **TEXT** key. This text will always be displayed to the user on the screen and will be included in the print output, for example. The **ARIAHEADER** key specifies the accessibility role of the content.
 
 [TocIcon]: tocIcon.md "TOC icons"
 [customUI]: customUI.md "Viewer Custom UI"

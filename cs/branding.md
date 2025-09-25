@@ -146,9 +146,10 @@ activatePlugin('puiHeader', 'Down', STO_HELP);
 ```text
 POSITION|b
 TEXT|(C) ACME, 2025
+ARIAHEADER|contentinfo
 ```
 
-Tímto způsobem se aktivuje nová instance pluginu **puiHeader** s názvem **Down**. Současně je nutné založit konfigurační soubor přesně s uvedeným názvem, aby se konfigurace automaticky načetla. Výsledkem bude nový panel umístěný pod panelem obsahu kapitoly, který bude zobrazovat text z klíče **TEXT**. Tento text bude uživateli vždy zobrazen na obrazovce a bude například součástí výstupu pro tisk.
+Tímto způsobem se aktivuje nová instance pluginu **puiHeader** s názvem **Down**. Současně je nutné založit konfigurační soubor přesně s uvedeným názvem, aby se konfigurace automaticky načetla. Výsledkem bude nový panel umístěný pod panelem obsahu kapitoly, který bude zobrazovat text z klíče **TEXT**. Tento text bude uživateli vždy zobrazen na obrazovce a bude například součástí výstupu pro tisk. Klíč **ARIAHEADER** určuje roli přístupnosti obsahu.
 
 [TocIcon]: tocIcon.md "Ikony stromu témat"
 [customUI]: customUI.md "Vlastní UI prohlížeče"
