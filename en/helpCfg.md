@@ -29,6 +29,7 @@ key|value
 |---|---|
 | OverrideColorTheme | Overwrites user selection of color scheme and saves it to user's configuration |
 | OverrideSidebarVisible | Overwrites user selection if left panel will be visible and saves it to user's configuration |
+| HOME | Sets the relative path to the first screen of the help page. Default value: README.md |
 
 ### Override default UI behavior
 

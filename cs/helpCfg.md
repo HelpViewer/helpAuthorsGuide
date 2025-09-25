@@ -29,6 +29,7 @@ klíč|hodnota
 |---|---|
 | OverrideColorTheme | Přepíše uživatelské schéma barev na konkrétní jiné a uloží hodnotu do konfigurace uživatele |
 | OverrideSidebarVisible | Přepíše uživatelskou volbu, zda bude levý panel viditelný a uloží hodnotu do konfigurace uživatele |
+| HOME | Nastaví relativní cestu první obrazovky nápovědy. Výchozí hodnota: README.md |
 
 ### Přepsání výchozího chování UI
 
