@@ -66,7 +66,7 @@ Soubor **muj-kurzor.png** musí být v relativním umístění k **index.html** 
 
 #### ✨ Úvodní obrazovka
 
-- Obrazovka vyplní celou viditelnou plochu a slouží k rychlé prezentaci - typicky produktová ikona, název a krátký slogan.- Do repozitáře nápovědy vložte pro každý jazyk soubor:
+- Obrazovka vyplní celou viditelnou plochu a slouží k rychlé prezentaci - typicky produktová ikona, název a krátký slogan. Do repozitáře nápovědy vložte pro každý jazyk soubor:
 **helpProjekt/(jazyk)/_splash.md** :
 
 ```markdown
