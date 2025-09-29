@@ -1,5 +1,9 @@
 # Changelog
 
+## 20250929
+- Branding your help
+- TOC icons for tree subitems
+
 ## 20250921
 - EN,CZ : Sepia color theme mentioned
 
