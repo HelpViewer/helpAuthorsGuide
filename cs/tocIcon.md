@@ -9,3 +9,13 @@ Ikony stromu témat se určují z dat konkrétní jazykové verze v tomto pořad
 | <details><summary></summary></details> | Není platné nic z předešlých |
 
 Pokud je některé z pravidel v tabulce výše splněno, ostatní pravidla se už neberou v potaz.
+
+## Ikony podřízených položek
+
+| Ikony | Zdroj |
+|---|---|
+| (obrázek) | V jazykové verzi nápovědy existuje soubor **tree-sibling.png** |
+| (ikonka) | **_config.txt** obsahuje klíč **OverrideBookIcon-sibling** s neprázdnou hodnotou (unicode znakem, písmenem, textem; cesta není povolena) |
+| (nic) | Není platné nic z předešlých |
+
+Pokud je některé z pravidel v tabulce výše splněno, ostatní pravidla se už neberou v potaz.
