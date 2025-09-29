@@ -22,6 +22,7 @@ klíč|hodnota
 |---|---|
 | OverrideBookIcon-opened | Znak pro otevřenou knihu |
 | OverrideBookIcon-closed | Znak pro zavřenou knihu |
+| OverrideBookIcon-sibling | Znak pro položku bez podřízených položek |
 
 ### Přepsání uživatelských nastavení UI
 

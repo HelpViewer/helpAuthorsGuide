@@ -22,6 +22,7 @@ key|value
 |---|---|
 | OverrideBookIcon-opened | Open book character |
 | OverrideBookIcon-closed | Closed book character |
+| OverrideBookIcon-sibling | Item with no child items character |
 
 ### Overwrite user settings of UI
 
