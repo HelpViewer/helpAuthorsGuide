@@ -1,5 +1,8 @@
 # Changelog
 
+## 20251004
+- Help configuration : OverrideBookIcon-sibling key mentioned
+
 ## 20250929
 - Branding your help
 - TOC icons for tree subitems
