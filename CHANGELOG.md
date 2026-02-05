@@ -1,5 +1,8 @@
 # Changelog
 
+## 20260205
+- Export function and formats
+
 ## 20251004
 - Help configuration : OverrideBookIcon-sibling key mentioned
 
