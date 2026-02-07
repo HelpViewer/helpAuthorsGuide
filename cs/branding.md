@@ -151,6 +151,29 @@ ARIAHEADER|contentinfo
 
 Tímto způsobem se aktivuje nová instance pluginu **puiHeader** s názvem **Down**. Současně je nutné založit konfigurační soubor přesně s uvedeným názvem, aby se konfigurace automaticky načetla. Výsledkem bude nový panel umístěný pod panelem obsahu kapitoly, který bude zobrazovat text z klíče **TEXT**. Tento text bude uživateli vždy zobrazen na obrazovce a bude například součástí výstupu pro tisk. Klíč **ARIAHEADER** určuje roli přístupnosti obsahu.
 
+###  Vlastní typ admonition bloku
+
+V rámci řešení vyznačení bloků je dovoleno si dodefinovat vlastní typ podle instrukcí v kapitole 🛠️ [Vlastní UI prohlížeče][customUI] a dále tímto způsobem v **custom.css** v nápovědě:
+
+```css
+:root {
+  --c-border-note-mytest:rgb(207, 207, 34);
+}
+.note-mytest {
+  border-color: var(--c-border-note-mytest);
+}
+
+.note-mytest p::before {
+  content: "MT ";
+}
+```
+
+s použitím jaké je obvyklé u ostatních typů:
+
+```markdown
+> [!MYTEST]Blok neznámého typu
+```
+
 [TocIcon]: tocIcon.md "Ikony stromu témat"
 [customUI]: customUI.md "Vlastní UI prohlížeče"
 [DGuide]: ?d=hlp-dguide/Help-__.zip "Dokumentace pro vývojáře"

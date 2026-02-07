@@ -15,6 +15,7 @@ Nová kapitola|Nová kapitola||newTopic.md
  🔗 Odkazy|Odkazy v textech||links.md
  🖼️ Obrázky|Obrázky v textech||images.md
  🧾 Kódový výpis|Kódový výpis v textech||code.md
+ 📢 Informační bloky|Vyznačené informační bloky||admonitions.md
  📊 Diagram|Diagram||diagram.md
  🧩 JavaScript|Vložený JavaScript blok||innerJS.md
  🖨️ Tisk|Tisk||print.md

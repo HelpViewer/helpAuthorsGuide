@@ -151,6 +151,29 @@ ARIAHEADER|contentinfo
 
 This activates a new instance of the **puiHeader** plugin named **Down**. At the same time, it is necessary to create a configuration file with the exact name specified so that the configuration is loaded automatically. The result will be a new panel located below the chapter content panel, which will display the text from the **TEXT** key. This text will always be displayed to the user on the screen and will be included in the print output, for example. The **ARIAHEADER** key specifies the accessibility role of the content.
 
+###  Custom admonition block type
+
+As part of the information blocks (admonition) solution, you can define your own type according to the instructions in the chapter 🛠️ [Viewer Custom UI][customUI] and also in this way in **custom.css** in the help:
+
+```css
+:root {
+  --c-border-note-mytest:rgb(207, 207, 34);
+}
+.note-mytest {
+  border-color: var(--c-border-note-mytest);
+}
+
+.note-mytest p::before {
+  content: "MT ";
+}
+```
+
+using the same method as for other types:
+
+```markdown
+> [!MYTEST]Block of unknown type
+```
+
 [TocIcon]: tocIcon.md "TOC icons"
 [customUI]: customUI.md "Viewer Custom UI"
 [DGuide]: ?d=hlp-dguide/Help-__.zip "Documentation for developers"

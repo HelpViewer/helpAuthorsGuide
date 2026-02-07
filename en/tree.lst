@@ -15,6 +15,7 @@ New chapter|New chapter||newTopic.md
  🔗 Links|Links in texts||links.md
  🖼️ Images|Images in texts||images.md
  🧾 Code listing|Code listing in texts||code.md
+ 📢 Admonitions|Highlighted information blocks||admonitions.md
  📊 Diagram|Diagram||diagram.md
  🧩 JavaScript|JavaScript embedded block||innerJS.md
  🖨️ Print|Print||print.md
