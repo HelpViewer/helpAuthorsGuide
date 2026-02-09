@@ -1,5 +1,9 @@
 # Changelog
 
+## 20260209
+- Admonitions, details about admonitions styling
+- Export formats : RTF (1.5, Word 97)
+
 ## 20260205
 - Export function and formats
 
