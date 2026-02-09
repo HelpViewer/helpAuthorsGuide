@@ -14,6 +14,16 @@ Tlačítko 📥 Export (napravo na horním panelu nad textem kapitoly) Vám po k
   ePub e-book formát kompatibilní s verzí ePub2 a ePub3  
   (otestováno primárně na SW čtečkách - [EPUBReader][EPUBReader] (Chrome), dále na Android - [ReadEra][readera], [eBoox][eboox])  
   Pokud není k dispozici seznam témat, exportní modul se jej pokusí vytvořit z **h1** nadpisů v kapitolách.
+- **RTF**  
+  - Zdrojový kód je kompatibilní s **Word 97 (RTF 1.5)** a vyšší.
+  - Formát textu je pouze v základním rozsahu (i když váš HTML může mít složitější formát - zejména podbarvení a barvy textu nejsou při exportu řešeny).
+  - Nadpisy jsou správně definovány, ale bez speciálního formátu (ve Wordu můžete styl šablony snadno změnit).
+  - Výstup z **Prism** se tiskne písmem typu "psací stroj" (bez barev a formátu).
+  - Výstup z **Marked** se neexportuje.
+  - Používá výchozí **kódovou stránku ANSI** (při exportu jazyků východní Evropy a dalších mohou být znaky s diakritikou poškozené).
+  - Obrázky nejsou exportovány.
+  - Tabulky jsou exportovány jen jako text s tabulátory.
+  - Unicode znaky jsou poškozené, ale vložené (jako více prostých ASCII znaků).
 - **STATIC**  
   Sada HTML stránek, které jsou:
   - statické,

@@ -14,6 +14,16 @@ The 📥 Export button (on the right side of the top panel above the chapter tex
   ePub e-book format compatible with ePub2 and ePub3  
   (tested primarily on SW readers - [EPUBReader][EPUBReader] (Chrome), also on Android - [ReadEra][readera], [eBoox][eboox])  
   If no list of topics is available, the export module will attempt to create one from the **h1** headings in the chapters.
+- **RTF**  
+  - Source code is compatible with **Word 97 (RTF 1.5)** and higher
+  - Text formatting functions are used only to a basic extent (despite your HTML can be more rich in format)
+  - Headings are correctly defined but without any special format (you can easily change style template in Word afterwards)
+  - Output from **Prism** is printed in "typewriter" font (no colors and format)
+  - Output from **Marked** is skipped
+  - Uses default **ANSI codepage** (East Europe and other languages exports may have malformed letters with diacritics)
+  - Images are not imported
+  - Tables are imported via texts with tab spaces
+  - Unicode characters are malformed, but inserted
 - **STATIC**  
   A set of HTML pages that are:
   - static,
