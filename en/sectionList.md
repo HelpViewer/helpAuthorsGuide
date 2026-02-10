@@ -20,6 +20,7 @@ Headings are automatically named in the following format: #h-(level)-(order).
 
 ## Handling Changes in Document Headings
 
-⚠️ If a new heading is inserted between two existing ones, it inherits the index of the heading that originally occupied that position. All subsequent headings at the same level are automatically shifted.
+> [!WARNING]
+> If a new heading is inserted between two existing ones, it inherits the index of the heading that originally occupied that position. All subsequent headings at the same level are automatically shifted.
 
 This ensures that anchors remain consistent and predictable, even as the document structure evolves.

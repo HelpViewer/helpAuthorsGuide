@@ -1,6 +1,6 @@
 # 📇Vazba klíčové slovo - soubor (keywords-files.lst)
 
-- ⚠️ Tento formát je velmi přísný, prosím, dodržujte pravidla přesně.
+- > [!WARNING] Tento formát je velmi přísný, prosím, dodržujte pravidla přesně.
 - Soubor definuje propojení klíčových slov ([keywords.lst][Dkeywords.lst]) a seznamu souborů ([files.lst][Dfiles.lst])
 - Jeden řádek = jedna položka
 - Zalomení řádku uprostřed definice není povoleno

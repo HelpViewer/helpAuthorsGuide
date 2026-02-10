@@ -1,6 +1,6 @@
 # 📖 TOC tree (tree.lst)
 
-- ⚠️ This format is very strict, please follow the rules exactly.
+- > [!WARNING] This format is very strict, please follow the rules exactly.
 - This file defines hierarchy structure of help chapters
 - It is not mandatory that all files are part of it
 - One row = one item of tree

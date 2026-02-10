@@ -1,6 +1,6 @@
 # 📑 File list (files.lst)
 
-- ⚠️ This format is very strict, please follow the rules exactly.
+- > [!WARNING] This format is very strict, please follow the rules exactly.
 - Defines list of valid chapters of help file
 - It is recommended that all files should be listed there
 - One row = one item

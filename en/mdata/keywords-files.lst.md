@@ -1,6 +1,6 @@
 # 📇 Keyword - file connection (keywords-files.lst)
 
-- ⚠️ This format is very strict, please follow the rules exactly.
+- > [!WARNING] This format is very strict, please follow the rules exactly.
 - This file defines interconnection of keywords ([keywords.lst][Dkeywords.lst]) and file list ([files.lst][Dfiles.lst])
 - One row = one item
 - Line break in the uncomplete definition is not allowed

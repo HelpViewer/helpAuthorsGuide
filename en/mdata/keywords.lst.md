@@ -1,6 +1,6 @@
 # 📇 Keywords list (keywords.lst)
 
-- ⚠️ This format is very strict, please follow the rules exactly.
+- > [!WARNING] This format is very strict, please follow the rules exactly.
 - Defines keywords list in help
 - One row = one item
 - Line break in the uncomplete definition is not allowed

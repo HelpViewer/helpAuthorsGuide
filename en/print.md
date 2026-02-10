@@ -13,7 +13,8 @@ If you want to keep the icons in a specific topic, insert this directive after t
 The application is divided into two main areas:
 ```
 
-⚠️ Note: Type the directive with the exact spacing as shown and do not combine it with other comments or blocks. This will ensure correct processing and no problems.
+> [!WARNING]
+> Type the directive with the exact spacing as shown and do not combine it with other comments or blocks. This will ensure correct processing and no problems.
 
 To keep the icons in all topics, set the help configuration option **OverridePrintKeepIcons** to 1.
 
@@ -38,6 +39,7 @@ To manually insert a page break, add the following line to your .md or .html fil
 <!-- @print-break -->
 ```
 
-⚠️ Note: Make sure to type the text exactly as shown, including spaces.
+> [!WARNING]
+> Make sure to type the text exactly as shown, including spaces.
 
 When generating the print version, the document will automatically break at this point, and the following content will start on a new page.

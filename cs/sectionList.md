@@ -19,6 +19,7 @@ Záložky jsou automaticky pojmenovávány v tomto formátu: #h-(úroveň)-(poř
 
 ## Změny v nadpisech dokumentů
 
-⚠️ Pokud do dokumentu vložíte nový nadpis (např. mezi dvě stávající), automaticky převezme index nadpisu, který byl na jeho místě. Nadpisy následující za ním se o jedno pořadí posunou.
+> [!WARNING]
+> Pokud do dokumentu vložíte nový nadpis (např. mezi dvě stávající), automaticky převezme index nadpisu, který byl na jeho místě. Nadpisy následující za ním se o jedno pořadí posunou.
 
 Tímto je zajištěno, že záložky zůstanou konzistentní a předvídatelné, i když se struktura dokumentu v budoucnu změní.

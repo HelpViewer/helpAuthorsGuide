@@ -1,6 +1,6 @@
 # 📖Strom témat (tree.lst)
 
-- ⚠️ Tento formát je velmi přísný, prosím, dodržujte pravidla přesně.
+- > [!WARNING] Tento formát je velmi přísný, prosím, dodržujte pravidla přesně.
 - Soubor definuje hierarchickou strukturu kapitol nápovědy
 - Není povinné, aby všechny soubory byly jeho součástí
 - Jeden řádek = jedna položka stromu
