@@ -8,6 +8,14 @@ Obsah kapitoly se načte, zobrazí se a s krátkým odstupem se provedou potřeb
 - Buďte, prosím, slušní a využívejte tuto funkci aplikace uvážlivě s ohledem na uživatelský komfort a dodržení pravidel přístupnosti u své nápovědy. HelpViewer zde žádným způsobem nezasahuje do logiky skriptu, pouze ji předá k dalšímu zpracování na straně klienta.  
   **Za obsah a dopady skriptů vložených v rámci nápovědy nese odpovědnost autor nápovědy.**
 
+> [!WARNING] Administrátor systému má možnost volitelně nainstalovat aplikaci s:  
+  
+- vypnutím funkce 🧾 Vykonávat vložený JavaScript
+- aktivní funkcí 📦🛡️ DOMPurify.  
+  
+V takovémto případě by tato část aplikace byla nefunkční.  
+Důvodem pro existenci těchto funkcí v systému je ochrana proti XSS útoku.
+
 ```markdown
 1. Stáhněte si balíček <span id="linkhereI"></span> a rozbalte jej.
 
