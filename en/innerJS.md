@@ -14,7 +14,8 @@ Chapter text is loaded and sfter that with short time delay there will be execut
 - the 📦🛡️ DOMPurify function enabled.  
   
 In this case, this part of the application would be non-functional.  
-The reason for the existence of these functions in the system is protection against XSS attacks.
+The reason for the existence of these functions in the system is protection against XSS attacks.  
+The features are **included** in the installation **by default** (i.e., JavaScript cannot be run this way - DOMPurify must be disabled).
 
 ```markdown
 1. Download <span id="linkhereI"></span> and unzip it.

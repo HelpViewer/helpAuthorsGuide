@@ -14,7 +14,8 @@ Obsah kapitoly se načte, zobrazí se a s krátkým odstupem se provedou potřeb
 - aktivní funkcí 📦🛡️ DOMPurify.  
   
 V takovémto případě by tato část aplikace byla nefunkční.  
-Důvodem pro existenci těchto funkcí v systému je ochrana proti XSS útoku.
+Důvodem pro existenci těchto funkcí v systému je ochrana proti XSS útoku.  
+Funkce jsou **ve výchozím nastavení** v instalaci **zahrnuty** (tedy javascript nebude možno spouštět - DOMPurify musí být vypnuta).
 
 ```markdown
 1. Stáhněte si balíček <span id="linkhereI"></span> a rozbalte jej.
