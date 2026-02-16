@@ -1,5 +1,9 @@
 # Changelog
 
+## 20260216
+- typography : admonitions used chapter texts
+- innerJS : description updated for DOMPurify and Execute embedded JavaScript
+
 ## 20260209
 - Admonitions, details about admonitions styling
 - Export formats : RTF (1.5, Word 97)
