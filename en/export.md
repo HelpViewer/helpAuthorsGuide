@@ -65,7 +65,7 @@ The 📥 Export button (on the right side of the top panel above the chapter tex
   3. The icons will be removed and the exports will work with the visible text of the chapter.
 - The 🖨️ **Print** function normally allows you to print a page to **PDF** in modern browsers.
 - In combination with the [👀 View Repository][viewRepo] function, you can read freely available external sources (for example, a free set of linked md files).
-- Using the **d** parameter in the URI ([index.html?d=index.html?d=https://helpviewer.github.io/][test]), freely available external resources can be read.
+- Using the **d** parameter in the URI ([?d=https://helpviewer.github.io/][test]), freely available external resources can be read.
 
 [MDSyntax]: https://www.markdownguide.org/basic-syntax/ "MD"
 [HTML5Syntax]: https://www.tutorialspoint.com/html5/html5_syntax.htm "HTML"

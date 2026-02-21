@@ -65,7 +65,7 @@ Tlačítko 📥 Export (napravo na horním panelu nad textem kapitoly) Vám po k
   3. Ikonky  budou odebrány a exporty pracují s viditelným textem kapitoly.
 - Funkce 🖨️ **Vytisknout** běžně dovoluje v moderních prohlížečích tisk stránky do **PDF**
 - V kombinaci s funkcí [👀 Zobraz repozitář][viewRepo] lze číst volně dostupné externí zdroje (například volnou sadu propojených md souborů)
-- S použitím parametru **d** v URI ([index.html?d=index.html?d=https://helpviewer.github.io/][test]) lze číst volně dostupné externí zdroje
+- S použitím parametru **d** v URI ([?d=https://helpviewer.github.io/][test]) lze číst volně dostupné externí zdroje
 
 [MDSyntax]: https://www.markdownguide.org/basic-syntax/ "MD"
 [HTML5Syntax]: https://www.tutorialspoint.com/html5/html5_syntax.htm "HTML"
